@@ -1,0 +1,263 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/simulation/modelsim
+vAsyncROM
+Z1 !s110 1621088850
+!i10b 1
+!s100 L@THM>S0G@VXz;18G62a[2
+I=HG>@DP490ziF7nlLc9Ii1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620985820
+8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/ROM.v
+FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/ROM.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621088850.000000
+!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.vh|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8}
+Z7 tCvgOpt 0
+n@async@r@o@m
+vCPU
+R1
+!i10b 1
+!s100 gBc=kVMOZcJS0H>LnkMKo2
+IbYad>c9o9Gk`Kj`T>eeZd2
+R2
+R0
+w1621088711
+8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.v
+FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.vh|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vDebounce
+Z8 !s110 1621088849
+!i10b 1
+!s100 =odRZGQ>adi1lZgE18OCI1
+Ii7DF]D[jMTOg8oHUK8MOB2
+R2
+R0
+Z9 w1621062136
+Z10 8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/AuxMod.v
+Z11 FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/AuxMod.v
+L0 16
+R3
+r1
+!s85 0
+31
+Z12 !s108 1621088849.000000
+Z13 !s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/AuxMod.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R8
+!i10b 1
+!s100 nJlGg^enfD9X>4QQeGB832
+IXWI_e^XGWWL?U<A8F>0?f3
+R2
+R0
+R9
+R10
+R11
+L0 99
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R8
+!i10b 1
+!s100 jEk;:IoBi^3Q:DW5GQDRB1
+IGXNbT;_5BKF>LGFl^NQ>X2
+R2
+R0
+R9
+R10
+R11
+L0 37
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R8
+!i10b 1
+!s100 =3R1XGOOGEKQmN5cd_Ok50
+I5gMhQDD5bHm3@]?^4NUKh0
+R2
+R0
+R9
+R10
+R11
+L0 51
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R8
+!i10b 1
+!s100 CnNn:N5=[fzo;0daQPP6F1
+IGELJSbFmm`d@;H3RPO@L<2
+R2
+R0
+R9
+R10
+R11
+L0 63
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+R8
+!i10b 1
+!s100 TMI621n?6IN?Ang`J3kK`1
+I79zR:fOP5EOF04BECcA;M1
+R2
+R0
+w1621088661
+8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/MyComputer.v
+FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/MyComputer.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/MyComputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/MyComputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R8
+!i10b 1
+!s100 h7GHzzgZcBDT>90[HC84z2
+IkoVWSI:mA0eAjCzQIl;F:2
+R2
+R0
+R9
+R10
+R11
+L0 69
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R8
+!i10b 1
+!s100 854a9IO>[0^T[:KGj:VSz3
+I;LomkLaAiMzzV_OVQD?A93
+R2
+R0
+R9
+R10
+R11
+L0 2
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+R7
+n@synchroniser
+vtestS8
+R1
+!i10b 1
+!s100 J^HZC5oQ^VGz^F1l4aKaT3
+INABK>NiN@ZI>18:c@4TCk1
+R2
+R0
+w1620893750
+8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/testS8.v
+FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/testS8.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/testS8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage8/testS8.v|
+!i113 1
+R5
+R6
+R7
+ntest@s8

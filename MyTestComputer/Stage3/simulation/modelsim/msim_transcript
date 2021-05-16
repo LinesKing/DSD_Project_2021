@@ -1,0 +1,96 @@
+# Reading D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do S3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyTestComputer/Stage3 {C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/MyComputer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:12 on May 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3" C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/MyComputer.v 
+# -- Compiling module MyComputer
+# 
+# Top level modules:
+# 	MyComputer
+# End time: 16:29:12 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyTestComputer/Stage3 {C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/AuxMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:12 on May 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3" C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/AuxMod.v 
+# -- Compiling module Synchroniser
+# -- Compiling module Debounce
+# -- Compiling module Disp2cNum
+# -- Compiling module DispDec
+# -- Compiling module DispHex
+# -- Compiling module SSeg
+# -- Compiling module DetectFallingEdge
+# 
+# Top level modules:
+# 	Debounce
+# 	Disp2cNum
+# 	DispHex
+# 	DetectFallingEdge
+# End time: 16:29:12 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyTestComputer/Stage3 {C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:13 on May 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3" C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 16:29:13 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyTestComputer/Stage3 {C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/testS3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:29:13 on May 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3" C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage3/testS3.v 
+# -- Compiling module testS3
+# 
+# Top level modules:
+# 	testS3
+# End time: 16:29:13 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testS3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testS3 
+# Start time: 16:29:13 on May 15,2021
+# Loading work.testS3
+# Loading work.MyComputer
+# Loading work.Debounce
+# Loading work.Synchroniser
+# Loading work.CPU
+# Loading work.Disp2cNum
+# Loading work.DispDec
+# Loading work.SSeg
+# Loading work.DispHex
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+run -all
+run -all
+run -all
+add wave -position insertpoint  \
+{sim:/testS3/LEDR[5]} \
+{sim:/testS3/LEDR[4]} \
+{sim:/testS3/LEDR[3]} \
+{sim:/testS3/LEDR[2]} \
+{sim:/testS3/LEDR[1]} \
+{sim:/testS3/LEDR[0]}
+add wave -position insertpoint  \
+{sim:/testS3/SW[9]}
+# End time: 16:37:19 on May 15,2021, Elapsed time: 0:08:06
+# Errors: 0, Warnings: 0

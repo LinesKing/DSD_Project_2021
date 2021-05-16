@@ -1,0 +1,263 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/simulation/modelsim
+vAsyncROM
+Z1 !s110 1621127032
+!i10b 1
+!s100 h@OT5Qn:g9YUJ^m<Gb<ji2
+IR0hW]CSQn97Eogmfb]^=;3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620967712
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/ROM.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/ROM.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621127032.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.vh|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10}
+Z7 tCvgOpt 0
+n@async@r@o@m
+vCPU
+R1
+!i10b 1
+!s100 TnDk<_D14oWE?64TI0F0D2
+IKYMV=kF7EAQYlZGXEhizf3
+R2
+R0
+w1621089593
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.vh|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vDebounce
+R1
+!i10b 1
+!s100 =odRZGQ>adi1lZgE18OCI1
+I;eC86F313kBY90?_;3cRR1
+R2
+R0
+Z8 w1621062168
+Z9 8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/AuxMod.v
+Z10 FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/AuxMod.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/AuxMod.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R1
+!i10b 1
+!s100 nJlGg^enfD9X>4QQeGB832
+IFBXjLXBBkmNiYhZNK?I;B2
+R2
+R0
+R8
+R9
+R10
+L0 99
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R1
+!i10b 1
+!s100 jEk;:IoBi^3Q:DW5GQDRB1
+IP[aTkL2NAS^Vj4Yz`6S[E3
+R2
+R0
+R8
+R9
+R10
+L0 37
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R1
+!i10b 1
+!s100 =3R1XGOOGEKQmN5cd_Ok50
+IC_:[Qge82TYO3OMeVKU7=2
+R2
+R0
+R8
+R9
+R10
+L0 51
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R1
+!i10b 1
+!s100 CnNn:N5=[fzo;0daQPP6F1
+IgZS7igMld><<nPA`JP>mY1
+R2
+R0
+R8
+R9
+R10
+L0 63
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+!s110 1621127031
+!i10b 1
+!s100 TMI621n?6IN?Ang`J3kK`1
+I?UldS0I[D``:d<ddc`[S62
+R2
+R0
+w1621088796
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/MyComputer.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/MyComputer.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1621127031.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/MyComputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/MyComputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R1
+!i10b 1
+!s100 h7GHzzgZcBDT>90[HC84z2
+I^7QK;=W_n>6`n8kZZkdj>0
+R2
+R0
+R8
+R9
+R10
+L0 69
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R1
+!i10b 1
+!s100 854a9IO>[0^T[:KGj:VSz3
+Ij^1B[n4j?f`Eeh?zV>z6>0
+R2
+R0
+R8
+R9
+R10
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@synchroniser
+vtestS10
+R1
+!i10b 1
+!s100 KH=M]`aZFXYl_AoUR0Knz0
+INLFh<F[K]I]2mm<=FUhFh2
+R2
+R0
+w1620968428
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/testS10.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/testS10.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/testS10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/MyTestComputer/Stage10/testS10.v|
+!i113 1
+R5
+R6
+R7
+ntest@s10
