@@ -96,10 +96,12 @@ endmodule
 
 // Step 2 of Stage 12:
 // 	Output 1 to y when falling edge of x is detected
-module DetectFallingEdge(input clk, x, output reg y = 0);
+module DetectFallingEdge(input clk, x, output y);
     reg buff;
+	 
     always @(posedge clk) begin
         buff <= x;
-        y <= buff && ~x; 
     end
+	 
+	 assign y = buff && ~x; 
 endmodule

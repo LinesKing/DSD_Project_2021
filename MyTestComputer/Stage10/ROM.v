@@ -6,10 +6,10 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 	always @(addr)
 		case (addr)
 			0: data = set(`DOUT, 1);
-//			4: data = acc(`SMT, `DOUT, -2);
-//			8: data = atc(`OFLW, 16);
-			4: data = {`MOV, `SHL, `REG, `DOUT, `REG, `DOUT, `N8};
-			8: data = atc(`SHFT, 16);
+			4: data = acc(`SMT, `DOUT, -2);
+			8: data = atc(`OFLW, 16);
+//			4: data = {`MOV, `SHL, `REG, `DOUT, `REG, `DOUT, `N8};
+//			8: data = atc(`SHFT, 16);
 			12: data = jmp(4);
 			16: data = set(`DOUT, 250);
 			20: data = acc(`UAD, `DOUT, 1);

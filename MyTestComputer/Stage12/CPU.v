@@ -43,8 +43,8 @@ module CPU(
 		
 	// Step 1 of Stage 5:
 	// 	Clock circuitry (250 ms cycle)
-	reg [23:0] cnt = 0;
-	localparam CntMax = 12500000 - 1;
+	reg [23:0] cnt = 1;
+	localparam CntMax = 12500000;
 	always @(posedge Clock)
 		cnt <= (cnt == CntMax) ? 0 : cnt + 1;
 

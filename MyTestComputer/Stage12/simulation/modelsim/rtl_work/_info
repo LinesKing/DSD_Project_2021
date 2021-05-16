@@ -7,257 +7,257 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/simulation/modelsim
+Z0 dC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/simulation/modelsim
 vAsyncROM
-Z1 !s110 1620983458
+Z1 !s110 1621160247
 !i10b 1
 !s100 F1W53H3K7Mn]YcKHC_9GO0
-I[nzkAEj>TbTinIQ1K[hPG0
+IfPO07=[9WezIlH@TGmaW<3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1620979914
-8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/ROM.v
-FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/ROM.v
+Z3 w1621135183
+8C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/ROM.v
+FC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/ROM.v
 L0 5
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1620983458.000000
-!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.vh|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/ROM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/ROM.v|
+Z5 !s108 1621160247.000000
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.vh|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/ROM.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12}
-Z7 tCvgOpt 0
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12
+Z8 tCvgOpt 0
 n@async@r@o@m
 vCPU
 R1
 !i10b 1
-!s100 kR11><oj=7WVeo6be@O<33
-Ik:c<f2UI>D]a^AG@X]@3l0
+!s100 ElKY^aaK8<g;2Y4c7L^;n2
+IbSm5<z64_fAgmoXkcRCGe2
 R2
 R0
-w1620981519
-8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.v
-FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.v
+w1621159491
+8C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.v
+FC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.v
 L0 5
-R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.vh|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/CPU.v|
-!i113 1
 R5
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.vh|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/CPU.v|
+!i113 1
 R6
 R7
+R8
 n@c@p@u
 vDebounce
 R1
 !i10b 1
 !s100 =odRZGQ>adi1lZgE18OCI1
-IhKSzD>73fF<nNV2GWHM^U3
+IfXKjE@6UG[^doYail4c1J3
 R2
 R0
-Z8 w1620982772
-Z9 8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/AuxMod.v
-Z10 FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/AuxMod.v
+Z9 w1621154502
+Z10 8C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/AuxMod.v
+Z11 FC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/AuxMod.v
 L0 16
-R3
+R4
 r1
 !s85 0
 31
-R4
-Z11 !s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/AuxMod.v|
-Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/AuxMod.v|
-!i113 1
 R5
+Z12 !s107 C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/AuxMod.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/AuxMod.v|
+!i113 1
 R6
 R7
+R8
 n@debounce
 vDetectFallingEdge
 R1
 !i10b 1
-!s100 XbUkcU46l<lVnlN7Ahglg3
-IT_QK@W@3k6U>MOC0<70P^0
+!s100 QPJfV5`=9][ZzoHKTSi[Z3
+IFcLMcUP0?HW@O>Eal0fdT3
 R2
 R0
-R8
 R9
 R10
+R11
 L0 99
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@detect@falling@edge
 vDisp2cNum
 R1
 !i10b 1
 !s100 jEk;:IoBi^3Q:DW5GQDRB1
-IJKmXC=DW[S9kUaeaV;?Un1
+I>0HL^DXOQMILf3?Og]36F3
 R2
 R0
-R8
 R9
 R10
+R11
 L0 37
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@disp2c@num
 vDispDec
 R1
 !i10b 1
 !s100 =3R1XGOOGEKQmN5cd_Ok50
-IZo^WS2[NfR`g]NG[4fLh?0
+IR_ldV<H1RlOJ7IJz^>D?]3
 R2
 R0
-R8
 R9
 R10
+R11
 L0 51
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@disp@dec
 vDispHex
 R1
 !i10b 1
 !s100 CnNn:N5=[fzo;0daQPP6F1
-Ig9gFBdD^62==:I@AN>e7H1
+IDSWR0JC4L9[8JD[Ogl_f]1
 R2
 R0
-R8
 R9
 R10
+R11
 L0 63
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@disp@hex
 vMyComputer
-R1
+!s110 1621160246
 !i10b 1
-!s100 9mg>]74]HWH6dfDAAKCl[0
-IdC5L;9KN`[FA@LKNGh58@3
+!s100 TMI621n?6IN?Ang`J3kK`1
+IaeVVHZ`FCB>7UR2bJkcUa1
 R2
 R0
-w1620876313
-8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/MyComputer.v
-FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/MyComputer.v
-L0 5
 R3
+8C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/MyComputer.v
+FC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/MyComputer.v
+L0 5
+R4
 r1
 !s85 0
 31
-!s108 1620983457.000000
-!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/MyComputer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/MyComputer.v|
+!s108 1621160246.000000
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/MyComputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/MyComputer.v|
 !i113 1
-R5
 R6
 R7
+R8
 n@my@computer
 vSSeg
 R1
 !i10b 1
 !s100 h7GHzzgZcBDT>90[HC84z2
-I3>BFmO@I]Rjm=<1k>JXlS1
+IT;g=FUn<^@7I`]K@oDX3Q3
 R2
 R0
-R8
 R9
 R10
+R11
 L0 69
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@s@seg
 vSynchroniser
 R1
 !i10b 1
 !s100 `E6=Sn7?nUWE:kXDaJ^bU1
-IYQLhdFQWW7TOkdOV5ne0C0
+I01MEBU;oDiKd4X1?NQ0?X0
 R2
 R0
-R8
 R9
 R10
+R11
 L0 2
-R3
+R4
 r1
 !s85 0
 31
-R4
-R11
-R12
-!i113 1
 R5
+R12
+R13
+!i113 1
 R6
 R7
+R8
 n@synchroniser
 vtestS12
 R1
 !i10b 1
-!s100 oKEL=S`jB:znN8Gg=gToS1
-ICG;g7i6hileSXcDJeiKXJ1
+!s100 YHgzV?IL]<ILR@Jl^HaRL3
+Ih8iXIC5zA7=VWHi=]Cje<3
 R2
 R0
-w1620983447
-8C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/testS12.v
-FC:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/testS12.v
-L0 3
-R3
+w1621160231
+8C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/testS12.v
+FC:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/testS12.v
+L0 34
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/testS12.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12|C:/Users/cassi/Desktop/verilog code/MyTestComputer/Stage12/testS12.v|
-!i113 1
 R5
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/testS12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12|C:/Users/leqin/DSD_Project_2021/MyTestComputer/Stage12/testS12.v|
+!i113 1
 R6
 R7
+R8
 ntest@s12

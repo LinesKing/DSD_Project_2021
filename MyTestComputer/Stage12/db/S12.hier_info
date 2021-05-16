@@ -1,15 +1,15 @@
 |MyComputer
 Clock => Clock.IN2
-LEDR[0] <= CPU:cpu.GPO
-LEDR[1] <= CPU:cpu.GPO
-LEDR[2] <= CPU:cpu.GPO
-LEDR[3] <= CPU:cpu.GPO
-LEDR[4] <= CPU:cpu.GPO
-LEDR[5] <= CPU:cpu.GPO
-LEDR[6] <= CPU:cpu.Debug
-LEDR[7] <= CPU:cpu.Debug
-LEDR[8] <= CPU:cpu.Debug
-LEDR[9] <= CPU:cpu.Debug
+LEDR[0] << CPU:cpu.GPO
+LEDR[1] << CPU:cpu.GPO
+LEDR[2] << CPU:cpu.GPO
+LEDR[3] << CPU:cpu.GPO
+LEDR[4] << CPU:cpu.GPO
+LEDR[5] << CPU:cpu.GPO
+LEDR[6] << CPU:cpu.Debug
+LEDR[7] << CPU:cpu.Debug
+LEDR[8] << CPU:cpu.Debug
+LEDR[9] << CPU:cpu.Debug
 SW[0] => SW[0].IN1
 SW[1] => SW[1].IN1
 SW[2] => SW[2].IN1
@@ -24,48 +24,48 @@ KEY[0] => KEY[0].IN1
 KEY[1] => KEY[1].IN1
 KEY[2] => KEY[2].IN1
 KEY[3] => KEY[3].IN1
-HEX0[0] <= Disp2cNum:dnum.H0
-HEX0[1] <= Disp2cNum:dnum.H0
-HEX0[2] <= Disp2cNum:dnum.H0
-HEX0[3] <= Disp2cNum:dnum.H0
-HEX0[4] <= Disp2cNum:dnum.H0
-HEX0[5] <= Disp2cNum:dnum.H0
-HEX0[6] <= Disp2cNum:dnum.H0
-HEX1[0] <= Disp2cNum:dnum.H1
-HEX1[1] <= Disp2cNum:dnum.H1
-HEX1[2] <= Disp2cNum:dnum.H1
-HEX1[3] <= Disp2cNum:dnum.H1
-HEX1[4] <= Disp2cNum:dnum.H1
-HEX1[5] <= Disp2cNum:dnum.H1
-HEX1[6] <= Disp2cNum:dnum.H1
-HEX2[0] <= Disp2cNum:dnum.H2
-HEX2[1] <= Disp2cNum:dnum.H2
-HEX2[2] <= Disp2cNum:dnum.H2
-HEX2[3] <= Disp2cNum:dnum.H2
-HEX2[4] <= Disp2cNum:dnum.H2
-HEX2[5] <= Disp2cNum:dnum.H2
-HEX2[6] <= Disp2cNum:dnum.H2
-HEX3[0] <= Disp2cNum:dnum.H3
-HEX3[1] <= Disp2cNum:dnum.H3
-HEX3[2] <= Disp2cNum:dnum.H3
-HEX3[3] <= Disp2cNum:dnum.H3
-HEX3[4] <= Disp2cNum:dnum.H3
-HEX3[5] <= Disp2cNum:dnum.H3
-HEX3[6] <= Disp2cNum:dnum.H3
-HEX4[0] <= DispHex:dh.H0
-HEX4[1] <= DispHex:dh.H0
-HEX4[2] <= DispHex:dh.H0
-HEX4[3] <= DispHex:dh.H0
-HEX4[4] <= DispHex:dh.H0
-HEX4[5] <= DispHex:dh.H0
-HEX4[6] <= DispHex:dh.H0
-HEX5[0] <= DispHex:dh.H1
-HEX5[1] <= DispHex:dh.H1
-HEX5[2] <= DispHex:dh.H1
-HEX5[3] <= DispHex:dh.H1
-HEX5[4] <= DispHex:dh.H1
-HEX5[5] <= DispHex:dh.H1
-HEX5[6] <= DispHex:dh.H1
+HEX0[0] << Disp2cNum:dnum.H0
+HEX0[1] << Disp2cNum:dnum.H0
+HEX0[2] << Disp2cNum:dnum.H0
+HEX0[3] << Disp2cNum:dnum.H0
+HEX0[4] << Disp2cNum:dnum.H0
+HEX0[5] << Disp2cNum:dnum.H0
+HEX0[6] << Disp2cNum:dnum.H0
+HEX1[0] << Disp2cNum:dnum.H1
+HEX1[1] << Disp2cNum:dnum.H1
+HEX1[2] << Disp2cNum:dnum.H1
+HEX1[3] << Disp2cNum:dnum.H1
+HEX1[4] << Disp2cNum:dnum.H1
+HEX1[5] << Disp2cNum:dnum.H1
+HEX1[6] << Disp2cNum:dnum.H1
+HEX2[0] << Disp2cNum:dnum.H2
+HEX2[1] << Disp2cNum:dnum.H2
+HEX2[2] << Disp2cNum:dnum.H2
+HEX2[3] << Disp2cNum:dnum.H2
+HEX2[4] << Disp2cNum:dnum.H2
+HEX2[5] << Disp2cNum:dnum.H2
+HEX2[6] << Disp2cNum:dnum.H2
+HEX3[0] << Disp2cNum:dnum.H3
+HEX3[1] << Disp2cNum:dnum.H3
+HEX3[2] << Disp2cNum:dnum.H3
+HEX3[3] << Disp2cNum:dnum.H3
+HEX3[4] << Disp2cNum:dnum.H3
+HEX3[5] << Disp2cNum:dnum.H3
+HEX3[6] << Disp2cNum:dnum.H3
+HEX4[0] << DispHex:dh.H0
+HEX4[1] << DispHex:dh.H0
+HEX4[2] << DispHex:dh.H0
+HEX4[3] << DispHex:dh.H0
+HEX4[4] << DispHex:dh.H0
+HEX4[5] << DispHex:dh.H0
+HEX4[6] << DispHex:dh.H0
+HEX5[0] << DispHex:dh.H1
+HEX5[1] << DispHex:dh.H1
+HEX5[2] << DispHex:dh.H1
+HEX5[3] << DispHex:dh.H1
+HEX5[4] << DispHex:dh.H1
+HEX5[5] << DispHex:dh.H1
+HEX5[6] << DispHex:dh.H1
 
 
 |MyComputer|Debounce:db
@@ -205,35 +205,31 @@ y[3] <= y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MyComputer|CPU:cpu|DetectFallingEdge:pb[0].dfe
-clk => y~reg0.CLK
 clk => buff.CLK
 x => buff.DATAIN
 x => y.IN1
-y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MyComputer|CPU:cpu|DetectFallingEdge:pb[1].dfe
-clk => y~reg0.CLK
 clk => buff.CLK
 x => buff.DATAIN
 x => y.IN1
-y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MyComputer|CPU:cpu|DetectFallingEdge:pb[2].dfe
-clk => y~reg0.CLK
 clk => buff.CLK
 x => buff.DATAIN
 x => y.IN1
-y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MyComputer|CPU:cpu|DetectFallingEdge:pb[3].dfe
-clk => y~reg0.CLK
 clk => buff.CLK
 x => buff.DATAIN
 x => y.IN1
-y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MyComputer|CPU:cpu|Synchroniser:tbo
