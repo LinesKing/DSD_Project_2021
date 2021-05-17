@@ -1,9 +1,11 @@
-// Synchronise the input signal
+//=======================================================
+//  Synchronise the input signal
+//=======================================================
 module Synchroniser(clk, x, y);
 	parameter n = 1;
 	input clk;
 	input [n-1:0] x;
-	output reg [n-1:0] y;
+	output reg [n-1:0] y = 0;
 	
 	reg [n-1:0] buff;
 	always @(posedge clk) begin
@@ -12,8 +14,10 @@ module Synchroniser(clk, x, y);
 	end
 endmodule
 
-// Debounce the inout signal
-module Debounce(input clk, x, output reg y);
+//=======================================================
+//  Debounce the input signal
+//=======================================================
+module Debounce(input clk, x, output reg y = 0);
 	localparam millisecond = 50000; //  1ms/(1/50M)
 	localparam period = 30*millisecond-1;
 	localparam size = $clog2(period);
@@ -33,8 +37,10 @@ module Debounce(input clk, x, output reg y);
 	end
 endmodule
 
-// Display 2's complement number
-module Disp2cNum(input enable, input [7:0]x, output [6:0]H0, H1, H2, H3);
+//=======================================================
+//  Display an 8-bit signed number in 2's complement
+//=======================================================
+module Disp2cNum(input enable, input signed [7:0]x, output [6:0]H0, H1, H2, H3);
 	wire neg = (x < 0);
 	wire [7:0] ux = neg ? -x : x;
 	wire [7:0] xo0, xo1, xo2, xo3;
@@ -47,25 +53,31 @@ module Disp2cNum(input enable, input [7:0]x, output [6:0]H0, H1, H2, H3);
     DispDec dd3(.x(xo2), .neg(neg), .enable(eno2), .xo(xo3), .eno(eno3), .segs(H3));
 endmodule
 
-// Display decimal
+//=======================================================
+//  Display an 8-bit number in decimal
+//=======================================================
 module DispDec(input [7:0] x, input neg, enable, output reg [7:0] xo, output reg eno, 
 					output [6:0] segs);
 	wire [3:0] digit = x % 10;  // the remainder after dividing by 10
-	wire n = (neg) && (xo == 0) && (digit == 0);  // if display a negative sign
+	wire n = (neg) && (x == 0);  // if display a negative sign
 	SSeg converter(digit, n, enable, segs);
 	always @(*) begin
 		xo = x / 10;
-		eno = (xo != 0) | ((neg) &&(x != 0));  // digit or neg sign
+		eno = (enable != 0) & ((xo != 0) | ((neg)&&(x != 0)));  // digit or neg sign
 	end
 endmodule
 
-// Display an 8-bit number in hexadecimal on two 7-segment displays
+//=======================================================
+//  Display an 8-bit number in hexadecimal
+//=======================================================
 module DispHex(input [7:0]x, output [6:0]H0, H1);
 	SSeg disp0(.bin(x[3:0]), .neg(1'b0), .enable(1'b1), .segs(H0));
    SSeg disp1(.bin(x[7:4]), .neg(1'b0), .enable(1'b1), .segs(H1));
 endmodule
 
-// Display a Hexadecimal Digit, a Negative Sign, or a Blank, on a 7-segment Display
+//=======================================================
+//  Display on a 7-segment Display
+//======================================================= 
 module SSeg(input [3:0] bin, input neg, input enable, output reg [6:0] segs);
 	always @(*)
 		if (enable) begin
@@ -94,12 +106,16 @@ module SSeg(input [3:0] bin, input neg, input enable, output reg [6:0] segs);
 		else segs = 7'b111_1111;
 endmodule
 
-// Step 2 of Stage 12:
-// 	Output 1 to y when falling edge of x is detected
-module DetectFallingEdge(input clk, x, output reg y);
+/////////////////// Step 2 of Stage 12 //////////////////
+//=======================================================
+//  Detect a falling edge
+//=======================================================
+module DetectFallingEdge(input clk, x, output y);
     reg buff;
+	 
     always @(posedge clk) begin
         buff <= x;
-        y <= buff && ~x; 
     end
+	 
+	 assign y = buff && ~x; 
 endmodule

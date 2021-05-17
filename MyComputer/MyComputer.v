@@ -13,11 +13,11 @@ module MyComputer(
 	//////////// SWITCH FOR DIN (data in) (8 bit on right) //////////
 	//////////// SWITCH FOR Turbo (1 bit on middle) //////////
 	//////////// SWITCH FOR RESET (1 bit on left) //////////
-	input [9:0] SW,
+	input [9:0]SW,
 	
 	//////////// PUSH BUTTON FOR SAMPLE (invert version) (1 bit on left) //////////
 	//////////// PUSH BUTTON FOR BTNS (invert version) (3 bit on right) //////////
-	input [3:0] KEY,
+	input [3:0]KEY,
 	
 	//////////// SEVEN SEGMENT //////////
 	output [6:0]HEX0,
@@ -50,11 +50,10 @@ module MyComputer(
 	//=======================================================
 	 
 	Debounce db(.clk(Clock), .x(SW[9]), .y(Reset));
-	CPU cpu(.Btns(KEY[2:0]), .Clock(Clock), .Din(SW[7:0]), .Reset(Reset), .Sample(KEY[3]), 
-			.Turbo(SW[8]), .Debug(Debug), .Dout(Dout), .Dval(Dval), .GPO(GPO), .IP(IP));
+	CPU cpu(.Btns(~KEY[2:0]), .Clock(Clock), .Din(SW[7:0]), .Reset(Reset), .Sample(KEY[3]), 
+			.Turbo(SW[8]), .Debug(Debug), .Dout(Dout), .Dval(Dval), .GPO(GPO), .IP_OUT(IP));
 	Disp2cNum dnum(.enable(Dval), .x(Dout), .H0(HEX0), .H1(HEX1), .H2(HEX2), .H3(HEX3));
 	DispHex dh(.x(IP), .H0(HEX4), .H1(HEX5));
 	assign LEDR = {Debug, GPO};
 
 endmodule
-

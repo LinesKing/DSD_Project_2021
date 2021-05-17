@@ -10,71 +10,75 @@
 # Copying D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyComputer {C:/Users/cassi/Desktop/verilog code/MyComputer/MyComputer.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/DSD_Project_2021/MyComputer {C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/MyComputer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:04:58 on May 01,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyComputer" C:/Users/cassi/Desktop/verilog code/MyComputer/MyComputer.v 
+# Start time: 21:48:04 on May 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer" C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/MyComputer.v 
 # -- Compiling module MyComputer
 # 
 # Top level modules:
 # 	MyComputer
-# End time: 17:04:58 on May 01,2021, Elapsed time: 0:00:00
+# End time: 21:48:04 on May 17,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyComputer {C:/Users/cassi/Desktop/verilog code/MyComputer/AuxMod.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/DSD_Project_2021/MyComputer {C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/AuxMod.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:04:58 on May 01,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyComputer" C:/Users/cassi/Desktop/verilog code/MyComputer/AuxMod.v 
+# Start time: 21:48:04 on May 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer" C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/AuxMod.v 
 # -- Compiling module Synchroniser
 # -- Compiling module Debounce
 # -- Compiling module Disp2cNum
 # -- Compiling module DispDec
 # -- Compiling module DispHex
 # -- Compiling module SSeg
+# -- Compiling module DetectFallingEdge
 # 
 # Top level modules:
 # 	Debounce
 # 	Disp2cNum
 # 	DispHex
-# End time: 17:04:58 on May 01,2021, Elapsed time: 0:00:00
+# 	DetectFallingEdge
+# End time: 21:48:04 on May 17,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyComputer {C:/Users/cassi/Desktop/verilog code/MyComputer/ROM.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/DSD_Project_2021/MyComputer {C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/ROM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:04:58 on May 01,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyComputer" C:/Users/cassi/Desktop/verilog code/MyComputer/ROM.v 
+# Start time: 21:48:04 on May 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer" C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/ROM.v 
 # -- Compiling module AsyncROM
 # 
 # Top level modules:
 # 	AsyncROM
-# End time: 17:04:58 on May 01,2021, Elapsed time: 0:00:00
+# End time: 21:48:04 on May 17,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyComputer {C:/Users/cassi/Desktop/verilog code/MyComputer/CPU.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/DSD_Project_2021/MyComputer {C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/CPU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:04:58 on May 01,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyComputer" C:/Users/cassi/Desktop/verilog code/MyComputer/CPU.v 
+# Start time: 21:48:05 on May 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer" C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/CPU.v 
 # -- Compiling module CPU
 # 
 # Top level modules:
 # 	CPU
-# End time: 17:04:58 on May 01,2021, Elapsed time: 0:00:00
+# End time: 21:48:05 on May 17,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/MyComputer {C:/Users/cassi/Desktop/verilog code/MyComputer/TestCalc.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/DSD_Project_2021/MyComputer {C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/TestCalc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:04:58 on May 01,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/MyComputer" C:/Users/cassi/Desktop/verilog code/MyComputer/TestCalc.v 
+# Start time: 21:48:05 on May 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer" C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/TestCalc.v 
 # -- Compiling module TestCalc
 # 
 # Top level modules:
 # 	TestCalc
-# End time: 17:04:58 on May 01,2021, Elapsed time: 0:00:00
+# End time: 21:48:05 on May 17,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TestCalc
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TestCalc 
-# Start time: 17:05:00 on May 01,2021
+# Start time: 21:48:05 on May 17,2021
 # Loading work.TestCalc
 # Loading work.CPU
+# Loading work.Synchroniser
 # Loading work.AsyncROM
+# Loading work.DetectFallingEdge
 # 
 # add wave *
 # view structure
@@ -85,71 +89,1017 @@
 # 
 # 
 # Resetting...
-# IP=  x	LEDS=xxxx_xx_xxxx	Dval=1	Dout=   x	Time=                   0 ns
-# IP=  0	LEDS=xxxx_xx_xxxx	Dval=1	Dout=   1	Time=                  10 ns
+# IP=  0	LEDS=xxx0_xx_xxxx	Dval=x	Dout=   x	Time=                   0 ns
+# IP=  0	LEDS=000x_xx_xxxx	Dval=x	Dout=   x	Time=                  10 ns
 # ... Reset Complete
 # 
 # 
 # Wait for calculator to run its initialisation code
+# IP=  0	LEDS=0001_xx_xxxx	Dval=x	Dout=   x	Time=                  30 ns
+# IP=  1	LEDS=0001_xx_xxxx	Dval=x	Dout=   x	Time=                  70 ns
+# IP=  2	LEDS=0001_xx_xxxx	Dval=x	Dout=   x	Time=                  90 ns
+# IP=  3	LEDS=0001_xx_xxxx	Dval=x	Dout=   x	Time=                 110 ns
+# IP=  4	LEDS=0001_xx_xxxx	Dval=x	Dout=   x	Time=                 130 ns
+# IP=  5	LEDS=0001_00_0000	Dval=1	Dout=   x	Time=                 150 ns
+# IP=  6	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 170 ns
+# IP=  7	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 190 ns
+# IP=110	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 210 ns
+# IP=111	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 230 ns
+# IP=112	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 250 ns
+# IP=113	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 270 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 290 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 310 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 330 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 350 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 370 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 390 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 410 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 430 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 450 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 470 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 490 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 510 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 530 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 550 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 570 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 590 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 610 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 630 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 650 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 670 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 690 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 710 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 730 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 750 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 770 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 790 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 810 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 830 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 850 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 870 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 890 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 910 ns
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 930 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 950 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 970 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                 990 ns
+# IP= 11	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1010 ns
 # 
 # 
 # Push   2
+# IP= 12	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1030 ns
+# IP= 13	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1050 ns
+# IP= 14	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1070 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1090 ns
+# IP= 11	LEDS=0011_00_0000	Dval=1	Dout=   0	Time=                1110 ns
+# IP= 12	LEDS=0011_00_0000	Dval=1	Dout=   0	Time=                1130 ns
+# IP= 13	LEDS=0011_00_0000	Dval=1	Dout=   0	Time=                1150 ns
+# IP= 14	LEDS=0011_00_0000	Dval=1	Dout=   0	Time=                1170 ns
+# IP= 10	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1190 ns
+# IP= 20	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1210 ns
+# IP= 21	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1230 ns
+# IP= 22	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1250 ns
+# IP= 23	LEDS=0001_00_0000	Dval=1	Dout=   0	Time=                1270 ns
+# IP= 24	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1290 ns
+# IP= 25	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1310 ns
+# IP= 26	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1330 ns
+# IP= 27	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1350 ns
+# IP= 28	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1370 ns
+# IP= 31	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1390 ns
+# IP= 32	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1410 ns
+# IP=110	LEDS=0001_00_0000	Dval=1	Dout=   2	Time=                1430 ns
+# IP=111	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1450 ns
+# IP=112	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1470 ns
+# IP=113	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1490 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1510 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1530 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1550 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1570 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1590 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1610 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1630 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1650 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1670 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1690 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1710 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1730 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1750 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1770 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1790 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1810 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1830 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1850 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1870 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1890 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1910 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1930 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1950 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1970 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                1990 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2010 ns
 # 
 # 
 # Push   5
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2030 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2050 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2070 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2090 ns
+# IP= 10	LEDS=0011_00_0001	Dval=1	Dout=   2	Time=                2110 ns
+# IP= 11	LEDS=0011_00_0001	Dval=1	Dout=   2	Time=                2130 ns
+# IP= 12	LEDS=0011_00_0001	Dval=1	Dout=   2	Time=                2150 ns
+# IP= 13	LEDS=0011_00_0001	Dval=1	Dout=   2	Time=                2170 ns
+# IP= 14	LEDS=0011_00_0001	Dval=1	Dout=   2	Time=                2190 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2210 ns
+# IP= 20	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2230 ns
+# IP= 21	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2250 ns
+# IP= 22	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2270 ns
+# IP= 23	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                2290 ns
+# IP= 24	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2310 ns
+# IP= 25	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2330 ns
+# IP= 26	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2350 ns
+# IP= 27	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2370 ns
+# IP= 28	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2390 ns
+# IP= 29	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2410 ns
+# IP= 34	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2430 ns
+# IP= 35	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2450 ns
+# IP=110	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=                2470 ns
+# IP=111	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2490 ns
+# IP=112	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2510 ns
+# IP=113	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2530 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2550 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2570 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2590 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2610 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2630 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2650 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2670 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2690 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2710 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2730 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2750 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2770 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2790 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2810 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2830 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2850 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2870 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2890 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2910 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2930 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2950 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2970 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                2990 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3010 ns
 # 
 # 
 # Add
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3030 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3050 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3070 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3090 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3110 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3130 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3150 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3170 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3190 ns
+# IP= 70	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3210 ns
+# IP= 71	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3230 ns
+# IP= 72	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3250 ns
+# IP= 73	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=                3270 ns
+# IP= 74	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3290 ns
+# IP= 75	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3310 ns
+# IP= 77	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3330 ns
+# IP= 78	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3350 ns
+# IP= 79	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3370 ns
+# IP= 80	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3390 ns
+# IP= 81	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3410 ns
+# IP=110	LEDS=0001_00_0010	Dval=1	Dout=   7	Time=                3430 ns
+# IP=111	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3450 ns
+# IP=112	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3470 ns
+# IP=113	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3490 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3510 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3530 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3550 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3570 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3590 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3610 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3630 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3650 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3670 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3690 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3710 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3730 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3750 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3770 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3790 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3810 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3830 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3850 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3870 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3890 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3910 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3930 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3950 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3970 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                3990 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4010 ns
 # 
 # 
 # Push 253
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4030 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4050 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4070 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4090 ns
+# IP= 10	LEDS=0011_00_0001	Dval=1	Dout=   7	Time=                4110 ns
+# IP= 11	LEDS=0011_00_0001	Dval=1	Dout=   7	Time=                4130 ns
+# IP= 12	LEDS=0011_00_0001	Dval=1	Dout=   7	Time=                4150 ns
+# IP= 13	LEDS=0011_00_0001	Dval=1	Dout=   7	Time=                4170 ns
+# IP= 14	LEDS=0011_00_0001	Dval=1	Dout=   7	Time=                4190 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4210 ns
+# IP= 20	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4230 ns
+# IP= 21	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4250 ns
+# IP= 22	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4270 ns
+# IP= 23	LEDS=0001_00_0001	Dval=1	Dout=   7	Time=                4290 ns
+# IP= 24	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4310 ns
+# IP= 25	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4330 ns
+# IP= 26	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4350 ns
+# IP= 27	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4370 ns
+# IP= 28	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4390 ns
+# IP= 29	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4410 ns
+# IP= 34	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4430 ns
+# IP= 35	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4450 ns
+# IP=110	LEDS=0001_00_0001	Dval=1	Dout=  -3	Time=                4470 ns
+# IP=111	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4490 ns
+# IP=112	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4510 ns
+# IP=113	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4530 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4550 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4570 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4590 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4610 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4630 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4650 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4670 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4690 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4710 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4730 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4750 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4770 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4790 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4810 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4830 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4850 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4870 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4890 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4910 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4930 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4950 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4970 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                4990 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5010 ns
 # 
 # 
 # Mult
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5030 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5050 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5070 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5090 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5110 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5130 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5150 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5170 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5190 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5210 ns
+# IP= 90	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5230 ns
+# IP= 91	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5250 ns
+# IP= 92	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5270 ns
+# IP=100	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5290 ns
+# IP=101	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5310 ns
+# IP=103	LEDS=0001_00_0010	Dval=1	Dout=  -3	Time=                5330 ns
+# IP=104	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5350 ns
+# IP=105	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5370 ns
+# IP=106	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5390 ns
+# IP=107	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5410 ns
+# IP=108	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5430 ns
+# IP=110	LEDS=0001_00_0010	Dval=1	Dout= -21	Time=                5450 ns
+# IP=111	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5470 ns
+# IP=112	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5490 ns
+# IP=113	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5510 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5530 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5550 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5570 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5590 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5610 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5630 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5650 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5670 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5690 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5710 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5730 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5750 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5770 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5790 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5810 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5830 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5850 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5870 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5890 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5910 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5930 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5950 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5970 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                5990 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6010 ns
 # 
 # 
 # Pop
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6030 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6050 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6070 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6090 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6110 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6130 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6150 ns
+# IP= 50	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6170 ns
+# IP= 51	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6190 ns
+# IP= 52	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6210 ns
+# IP= 53	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6230 ns
+# IP= 54	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6250 ns
+# IP= 55	LEDS=0001_00_0001	Dval=1	Dout= -21	Time=                6270 ns
+# IP= 56	LEDS=1001_00_0001	Dval=1	Dout= -21	Time=                6290 ns
+# IP= 57	LEDS=1001_00_0001	Dval=1	Dout= -21	Time=                6310 ns
+# IP= 58	LEDS=1001_00_0000	Dval=1	Dout= -21	Time=                6330 ns
+# IP= 59	LEDS=1001_00_0000	Dval=1	Dout= -21	Time=                6350 ns
+# IP= 60	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6370 ns
+# IP= 61	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6390 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6410 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6430 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6450 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6470 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6490 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6510 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6530 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6550 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6570 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6590 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6610 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6630 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6650 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6670 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6690 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6710 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6730 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6750 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6770 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6790 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6810 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6830 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6850 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6870 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6890 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6910 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6930 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6950 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6970 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                6990 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7010 ns
 # 
 # 
 # Pop
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7030 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7050 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7070 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7090 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7110 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7130 ns
+# IP= 50	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7150 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7170 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7190 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7210 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7230 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7250 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7270 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7290 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7310 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7330 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7350 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7370 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7390 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7410 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7430 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7450 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7470 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7490 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7510 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7530 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7550 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7570 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7590 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7610 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7630 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7650 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7670 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7690 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7710 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7730 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7750 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7770 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7790 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7810 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7830 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7850 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7870 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7890 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7910 ns
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7930 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7950 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7970 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                7990 ns
+# IP= 12	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8010 ns
 # 
 # 
 # Push   1
+# IP= 13	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8030 ns
+# IP= 14	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8050 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8070 ns
+# IP= 11	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8090 ns
+# IP= 12	LEDS=1011_00_0000	Dval=1	Dout=   0	Time=                8110 ns
+# IP= 13	LEDS=1011_00_0000	Dval=1	Dout=   0	Time=                8130 ns
+# IP= 14	LEDS=1011_00_0000	Dval=1	Dout=   0	Time=                8150 ns
+# IP= 10	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8170 ns
+# IP= 20	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8190 ns
+# IP= 21	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8210 ns
+# IP= 22	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8230 ns
+# IP= 23	LEDS=1001_00_0000	Dval=1	Dout=   0	Time=                8250 ns
+# IP= 24	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8270 ns
+# IP= 25	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8290 ns
+# IP= 26	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8310 ns
+# IP= 27	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8330 ns
+# IP= 28	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8350 ns
+# IP= 31	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8370 ns
+# IP= 32	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8390 ns
+# IP=110	LEDS=1001_00_0000	Dval=1	Dout=   1	Time=                8410 ns
+# IP=111	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8430 ns
+# IP=112	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8450 ns
+# IP=113	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8470 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8490 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8510 ns
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8530 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8550 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8570 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8590 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8610 ns
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8630 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8650 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8670 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8690 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8710 ns
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8730 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8750 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8770 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8790 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8810 ns
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8830 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8850 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8870 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8890 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8910 ns
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8930 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8950 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8970 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                8990 ns
+# IP= 11	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9010 ns
 # 
 # 
 # Push   2
+# IP= 12	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9030 ns
+# IP= 13	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9050 ns
+# IP= 14	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9070 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9090 ns
+# IP= 11	LEDS=1011_00_0001	Dval=1	Dout=   1	Time=                9110 ns
+# IP= 12	LEDS=1011_00_0001	Dval=1	Dout=   1	Time=                9130 ns
+# IP= 13	LEDS=1011_00_0001	Dval=1	Dout=   1	Time=                9150 ns
+# IP= 14	LEDS=1011_00_0001	Dval=1	Dout=   1	Time=                9170 ns
+# IP= 10	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9190 ns
+# IP= 20	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9210 ns
+# IP= 21	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9230 ns
+# IP= 22	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9250 ns
+# IP= 23	LEDS=1001_00_0001	Dval=1	Dout=   1	Time=                9270 ns
+# IP= 24	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9290 ns
+# IP= 25	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9310 ns
+# IP= 26	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9330 ns
+# IP= 27	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9350 ns
+# IP= 28	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9370 ns
+# IP= 29	LEDS=1001_00_0001	Dval=1	Dout=   2	Time=                9390 ns
+# IP= 34	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                9410 ns
+# IP= 35	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                9430 ns
+# IP=110	LEDS=0001_00_0001	Dval=1	Dout=   2	Time=                9450 ns
+# IP=111	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9470 ns
+# IP=112	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9490 ns
+# IP=113	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9510 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9530 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9550 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9570 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9590 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9610 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9630 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9650 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9670 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9690 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9710 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9730 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9750 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9770 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9790 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9810 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9830 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9850 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9870 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9890 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9910 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9930 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9950 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9970 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=                9990 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10010 ns
 # 
 # 
 # Push   3
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10030 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10050 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10070 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10090 ns
+# IP= 14	LEDS=0011_00_0010	Dval=1	Dout=   2	Time=               10110 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10130 ns
+# IP= 20	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10150 ns
+# IP= 21	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10170 ns
+# IP= 22	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10190 ns
+# IP= 23	LEDS=0001_00_0010	Dval=1	Dout=   2	Time=               10210 ns
+# IP= 24	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10230 ns
+# IP= 25	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10250 ns
+# IP= 26	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10270 ns
+# IP= 27	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10290 ns
+# IP= 28	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10310 ns
+# IP= 29	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10330 ns
+# IP= 30	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10350 ns
+# IP= 34	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10370 ns
+# IP= 35	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10390 ns
+# IP=110	LEDS=0001_00_0010	Dval=1	Dout=   3	Time=               10410 ns
+# IP=111	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10430 ns
+# IP=112	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10450 ns
+# IP=113	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10470 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10490 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10510 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10530 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10550 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10570 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10590 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10610 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10630 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10650 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10670 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10690 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10710 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10730 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10750 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10770 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10790 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10810 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10830 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10850 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10870 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10890 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10910 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10930 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10950 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10970 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               10990 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11010 ns
 # 
 # 
 # Push   4
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11030 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11050 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11070 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11090 ns
+# IP= 11	LEDS=0011_00_0100	Dval=1	Dout=   3	Time=               11110 ns
+# IP= 12	LEDS=0011_00_0100	Dval=1	Dout=   3	Time=               11130 ns
+# IP= 13	LEDS=0011_00_0100	Dval=1	Dout=   3	Time=               11150 ns
+# IP= 14	LEDS=0011_00_0100	Dval=1	Dout=   3	Time=               11170 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11190 ns
+# IP= 20	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11210 ns
+# IP= 21	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11230 ns
+# IP= 22	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11250 ns
+# IP= 23	LEDS=0001_00_0100	Dval=1	Dout=   3	Time=               11270 ns
+# IP= 24	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11290 ns
+# IP= 25	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11310 ns
+# IP= 26	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11330 ns
+# IP= 27	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11350 ns
+# IP= 28	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11370 ns
+# IP= 29	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11390 ns
+# IP= 30	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11410 ns
+# IP= 31	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11430 ns
+# IP= 32	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11450 ns
+# IP=110	LEDS=0001_00_0100	Dval=1	Dout=   4	Time=               11470 ns
+# IP=111	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11490 ns
+# IP=112	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11510 ns
+# IP=113	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11530 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11550 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11570 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11590 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11610 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11630 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11650 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11670 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11690 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11710 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11730 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11750 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11770 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11790 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11810 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11830 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11850 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11870 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11890 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11910 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11930 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11950 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11970 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               11990 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12010 ns
 # 
 # 
 # Push   5
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12030 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12050 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12070 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12090 ns
+# IP= 13	LEDS=0011_00_0001	Dval=1	Dout=   4	Time=               12110 ns
+# IP= 14	LEDS=0011_00_0001	Dval=1	Dout=   4	Time=               12130 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12150 ns
+# IP= 20	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12170 ns
+# IP= 21	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12190 ns
+# IP= 22	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12210 ns
+# IP= 23	LEDS=0001_00_0001	Dval=1	Dout=   4	Time=               12230 ns
+# IP= 24	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12250 ns
+# IP= 25	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12270 ns
+# IP= 26	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12290 ns
+# IP= 27	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12310 ns
+# IP= 28	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12330 ns
+# IP= 29	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12350 ns
+# IP= 34	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12370 ns
+# IP= 35	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12390 ns
+# IP=110	LEDS=0001_00_0001	Dval=1	Dout=   5	Time=               12410 ns
+# IP=111	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12430 ns
+# IP=112	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12450 ns
+# IP=113	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12470 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12490 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12510 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12530 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12550 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12570 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12590 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12610 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12630 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12650 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12670 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12690 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12710 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12730 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12750 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12770 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12790 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12810 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12830 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12850 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12870 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12890 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12910 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12930 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12950 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12970 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               12990 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13010 ns
 # 
 # 
 # Push   6
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13030 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13050 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13070 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13090 ns
+# IP= 11	LEDS=0011_00_0010	Dval=1	Dout=   5	Time=               13110 ns
+# IP= 12	LEDS=0011_00_0010	Dval=1	Dout=   5	Time=               13130 ns
+# IP= 13	LEDS=0011_00_0010	Dval=1	Dout=   5	Time=               13150 ns
+# IP= 14	LEDS=0011_00_0010	Dval=1	Dout=   5	Time=               13170 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13190 ns
+# IP= 20	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13210 ns
+# IP= 21	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13230 ns
+# IP= 22	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13250 ns
+# IP= 23	LEDS=0001_00_0010	Dval=1	Dout=   5	Time=               13270 ns
+# IP= 24	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13290 ns
+# IP= 25	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13310 ns
+# IP= 26	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13330 ns
+# IP= 27	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13350 ns
+# IP= 28	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13370 ns
+# IP= 29	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13390 ns
+# IP= 30	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13410 ns
+# IP= 34	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13430 ns
+# IP= 35	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13450 ns
+# IP=110	LEDS=0001_00_0010	Dval=1	Dout=   6	Time=               13470 ns
+# IP=111	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13490 ns
+# IP=112	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13510 ns
+# IP=113	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13530 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13550 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13570 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13590 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13610 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13630 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13650 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13670 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13690 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13710 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13730 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13750 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13770 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13790 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13810 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13830 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13850 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13870 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13890 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13910 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13930 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13950 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13970 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               13990 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14010 ns
 # 
 # 
 # Mult
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14030 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14050 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14070 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14090 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14110 ns
+# IP= 14	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14130 ns
+# IP= 10	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14150 ns
+# IP= 11	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14170 ns
+# IP= 12	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14190 ns
+# IP= 13	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14210 ns
+# IP= 90	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14230 ns
+# IP= 91	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14250 ns
+# IP= 92	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14270 ns
+# IP= 93	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14290 ns
+# IP=100	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14310 ns
+# IP=101	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14330 ns
+# IP=103	LEDS=0001_00_0100	Dval=1	Dout=   6	Time=               14350 ns
+# IP=104	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14370 ns
+# IP=105	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14390 ns
+# IP=106	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14410 ns
+# IP=107	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14430 ns
+# IP=108	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14450 ns
+# IP=110	LEDS=0001_00_0100	Dval=1	Dout=  30	Time=               14470 ns
+# IP=111	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14490 ns
+# IP=112	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14510 ns
+# IP=113	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14530 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14550 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14570 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14590 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14610 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14630 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14650 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14670 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14690 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14710 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14730 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14750 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14770 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14790 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14810 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14830 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14850 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14870 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14890 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14910 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14930 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14950 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14970 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               14990 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15010 ns
 # 
 # 
 # Mult
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15030 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15050 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15070 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15090 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15110 ns
+# IP= 14	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15130 ns
+# IP= 10	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15150 ns
+# IP= 11	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15170 ns
+# IP= 12	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15190 ns
+# IP= 13	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15210 ns
+# IP= 90	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15230 ns
+# IP= 91	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15250 ns
+# IP= 92	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15270 ns
+# IP=100	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15290 ns
+# IP=101	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15310 ns
+# IP=103	LEDS=0001_00_0010	Dval=1	Dout=  30	Time=               15330 ns
+# IP=104	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15350 ns
+# IP=105	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15370 ns
+# IP=106	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15390 ns
+# IP=107	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15410 ns
+# IP=108	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15430 ns
+# IP=110	LEDS=0001_00_0010	Dval=1	Dout= 120	Time=               15450 ns
+# IP=111	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15470 ns
+# IP=112	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15490 ns
+# IP=113	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15510 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15530 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15550 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15570 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15590 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15610 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15630 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15650 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15670 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15690 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15710 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15730 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15750 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15770 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15790 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15810 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15830 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15850 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15870 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15890 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15910 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15930 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15950 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15970 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               15990 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16010 ns
 # 
 # 
 # Mult
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16030 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16050 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16070 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16090 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16110 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16130 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16150 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16170 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16190 ns
+# IP= 90	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16210 ns
+# IP= 91	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16230 ns
+# IP= 92	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16250 ns
+# IP= 93	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16270 ns
+# IP= 94	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16290 ns
+# IP= 95	LEDS=0001_00_0001	Dval=1	Dout= 120	Time=               16310 ns
+# IP= 96	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16330 ns
+# IP= 97	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16350 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16370 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16390 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16410 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16430 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16450 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16470 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16490 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16510 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16530 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16550 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16570 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16590 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16610 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16630 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16650 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16670 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16690 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16710 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16730 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16750 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16770 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16790 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16810 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16830 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16850 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16870 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16890 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16910 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16930 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16950 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16970 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               16990 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17010 ns
 # 
 # 
 # Mult
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17030 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17050 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17070 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17090 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17110 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17130 ns
+# IP= 90	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17150 ns
+# IP= 91	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17170 ns
+# IP= 92	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17190 ns
+# IP= 93	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17210 ns
+# IP= 94	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17230 ns
+# IP= 95	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17250 ns
+# IP= 96	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17270 ns
+# IP= 97	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17290 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17310 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17330 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17350 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17370 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17390 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17410 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17430 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17450 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17470 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17490 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17510 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17530 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17550 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17570 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17590 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17610 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17630 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17650 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17670 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17690 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17710 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17730 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17750 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17770 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17790 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17810 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17830 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17850 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17870 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17890 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17910 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17930 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17950 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17970 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               17990 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18010 ns
 # 
 # 
 # Mult
-# ** Note: $stop    : C:/Users/cassi/Desktop/verilog code/MyComputer/TestCalc.v(159)
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18030 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18050 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18070 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18090 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18110 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18130 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18150 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18170 ns
+# IP= 90	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18190 ns
+# IP= 91	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18210 ns
+# IP= 92	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18230 ns
+# IP= 93	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18250 ns
+# IP= 94	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18270 ns
+# IP= 95	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18290 ns
+# IP= 96	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18310 ns
+# IP= 97	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18330 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18350 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18370 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18390 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18410 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18430 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18450 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18470 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18490 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18510 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18530 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18550 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18570 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18590 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18610 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18630 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18650 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18670 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18690 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18710 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18730 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18750 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18770 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18790 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18810 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18830 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18850 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18870 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18890 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18910 ns
+# IP= 14	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18930 ns
+# IP= 10	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18950 ns
+# IP= 11	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18970 ns
+# IP= 12	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               18990 ns
+# IP= 13	LEDS=0001_00_0001	Dval=1	Dout=   0	Time=               19010 ns
+# ** Note: $stop    : C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/TestCalc.v(159)
 #    Time: 19030 ns  Iteration: 1  Instance: /TestCalc
-# Break in Module TestCalc at C:/Users/cassi/Desktop/verilog code/MyComputer/TestCalc.v line 159
-run -all
-# Break key hit
-# Break in Module TestCalc at C:/Users/cassi/Desktop/verilog code/MyComputer/TestCalc.v line 16
-# End time: 17:07:03 on May 01,2021, Elapsed time: 0:02:03
+# Break in Module TestCalc at C:/Users/cassi/Desktop/verilog code/DSD_Project_2021/MyComputer/TestCalc.v line 159
+# End time: 22:18:40 on May 17,2021, Elapsed time: 0:30:35
 # Errors: 0, Warnings: 0
