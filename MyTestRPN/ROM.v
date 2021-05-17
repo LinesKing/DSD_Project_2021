@@ -22,50 +22,89 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 	always @(addr)
 		case (addr)
 			// Reset: clear stacks elements and size, register GOUT and Dout.
-			0 : data = set(`STACK0, `N8);  							// Initialisation. After a Reset, the CPU Registers will be in an unknown state. 
-			1 : data = set(`STACK1, `N8);
-			2 : data = set(`STACK2, `N8);
-			3 : data = set(`STACK3, `N8);
-			4 : data = set(`STKSIZ, `N8);  							// Set the stack size to zero, and turn off the LEDs and display. 
-			5 : data = set(`GOUT, `N8);
-			6 : data = set(`DOUT, `N8);
+			0  : data = set(`STACK0, `N8);  							// Initialisation. After a Reset, the CPU Registers will be in an unknown state. 
+			1  : data = set(`STACK1, `N8);
+			2  : data = set(`STACK2, `N8);
+			3  : data = set(`STACK3, `N8);
+			4  : data = set(`STKSIZ, `N8);  							// Set the stack size to zero, and turn off the LEDs and display. 
+			5  : data = set(`GOUT, 128);
+			6  : data = set(`DOUT, `N8);
 			
 			// Wait
-			10: data = atc(`SMPL, 20);  								// Jump to “push” if the Push button has been released.
-			11: data = atc(`POP, 50);									// Jump to “pop” if the Pop button has been released.
-			12: data = atc(`ADD, );    								// Jump to “add” if the Addition button has been released.
-			13: data = atc(`MLT, );										// Jump to “mult” if the Multiplication button has been released.
-			14: data = jmp(10);											// Jump to “wait”.
+			10 : data = atc(`SMPL, 20);  								// Jump to “push” if the Push button has been released.
+			11 : data = atc(`POP, 50);									// Jump to “pop” if the Pop button has been released.
+			12 : data = atc(`ADD, 70);    							// Jump to “add” if the Addition button has been released.
+			13 : data = atc(`MLT, 90);									// Jump to “mult” if the Multiplication button has been released.
+			14 : data = jmp(10);											// Jump to “wait”.
 			
 			// Push
-			20: data = mov(`STACK2, `STACK3);  						// Move stack up
-			21: data = mov(`STACK1, `STACK2);
-			22: data = mov(`STACK0, `STACK1);
-			23: data = mov(`DINP, `STACK0);  						// Move `DINP to stack[0]
-			24: data = mov(`STACK0, `DOUT);  						// Display stack[0] on 7-segment display
-			25: data = jmp_eq(`STKSIZ, 8, 40);						// Jump to “overflow” if Register[4] equals 8
-			26: data = clr_bit(`GOUT, `OFLW);  						// Turn Stack Overflow LED off
-			27: data = clr_bit(`GOUT, `SHFT);  						// Turn Arithmetic Overflow LED off
-			28: data = mov_shift(`SHL, `STKSIZ, `STKSIZ);      // Shift Register[4] to the left
-			29: data = mov(`STKSIZ, `GOUT);                    // Send the contents of Register[4] to the LED pins
-			30: data = jmp(10);											// Jump to “wait”
+			20 : data = mov(`STACK2, `STACK3);  					// Move stack up.
+			21 : data = mov(`STACK1, `STACK2);
+			22 : data = mov(`STACK0, `STACK1);
+			23 : data = mov(`DINP, `STACK0);  						// Move `DINP to stack[0].
+			24 : data = mov(`STACK0, `DOUT);  						// Display stack[0] on 7-segment display.
+			25 : data = jmp_eq(`STKSIZ, 8, 40);						// Jump to “overflow” if Register[4] equals 8.
+			26 : data = clr_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED off.
+			27 : data = clr_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED off.
+			28 : data = mov_shift(`SHL, `STKSIZ, `STKSIZ);     // Shift Register[4] to the left.
+			29 : data = mov(`STKSIZ, `GOUT);                   // Send the contents of Register[4] to the LED pins.
+			30 : data = jmp(10);											// Jump to “wait”.
 			
-			// Overflow
-			40: data = set_bit(`GOUT, `OFLW);  						// Turn Stack Overflow LED on
-			41: data = set_bit(`GOUT, `SHFT);  						// Turn Arithmetic Overflow LED off
-			42: data = jmp(10);											// Jump to “wait”
+			// Overflow: stack
+			40 : data = set_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED on.
+			41 : data = set_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED off.
+			42 : data = jmp(10);											// Jump to “wait”.
 			
 			// Pop
-			50: data = jmp_eq(`STKSIZ, 0, 40);						// Jump to “overflow” if Register[4] equals 8
-			51: data = clc_bit(`GOUT, `OFLW);  						// Turn Stack Overflow LED on
-			52: data = clc_bit(`GOUT, `SHFT);  						// Turn Arithmetic Overflow LED off
-			53: data = mov(`STACK1, `STACK0);                  // Shift the stack down
-			54: data = mov(`STACK2, `STACK1);
-			55: data = mov(`STACK3, `STACK2);
-			56: data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right
-			57: data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins
-			58: data = set(`DOUT, `N8);								// Turn off the 7-segment display
-			59: data = jmp_eq(`STKSIZ, 0, 10); 						// Jump to “wait” if Register[4] equals zero
+			50 : data = jmp_eq(`STKSIZ, 0, 40);						// Jump to “overflow” if Register[4] equals 8.
+			51 : data = clr_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED on.
+			52 : data = clr_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED off.
+			53 : data = mov(`STACK1, `STACK0);                 // Shift the stack down.
+			54 : data = mov(`STACK2, `STACK1);
+			55 : data = mov(`STACK3, `STACK2);
+			56 : data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
+			57 : data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
+			58 : data = set(`DOUT, `N8);								// Turn off the 7-segment display ??
+			59 : data = jmp_eq(`STKSIZ, 0, 10); 					// Jump to “wait” if Register[4] equals zero	.
+			60 : data = mov(`STACK0, `DOUT);							// Display stack[0] on the display.
+			61 : data = jmp(10);											// Jump to “wait”.
+			
+			// Add
+			70 : data = clr_bit(`GOUT, `SHFT);						// Turn off Arithmetic Overflow LED.
+			71 : data = jmp_eq(`STKSIZ, 0, 10);						// Jump to “wait” if Register [4] equals 0 or 1.
+			72 : data = jmp_eq(`STKSIZ, 1, 10);
+			73 : data = acc(`SAD, `STACK0, `STACK1);				// Stack[0] = Stack[0] + Stack[1].
+			74 : data = mov(`STACK0, `DOUT);							// Display Stack[0] on the display.
+			75 : data = jmp_eq(`FLAG, 8'b0000_0000, 77);			// Turn on Arithmetic Overflow LED if an overflow occurred ??
+			76 : data = set_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED on.
+			77 : data = clr_bit(`GOUT, `OFLW);  					// Turn off Stack Overflow LED. 
+			78 : data = mov(`STACK2, `STACK1);						// Move rest of stack down.
+			79 : data = mov(`STACK3, `STACK2);																
+			80 : data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
+			81 : data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
+			82 : data = jmp(10);											// Jump to “wait”.
+			
+			// Mult
+			90 : data = jmp_eq(`STKSIZ, 0, 10);						// Jump to “wait” if the stack is empty.
+			91 : data = clr_bit(`GOUT, `SHFT);						// Turn off Arithmetic Overflow LED.
+			92 : data = jmp_eq(`STKSIZ, 2, 100);					// Jump to “normal” if the stack has two or more elements.
+			93 : data = jmp_eq(`STKSIZ, 4, 100);
+			94 : data = jmp_eq(`STKSIZ, 8, 100);
+			95 : data = set(`STACK0, `N8); 							// Set stack[0] to 0.
+			96 : data = set(`DOUT, `N8);								// Display 0 on the 7-segment display.
+			97 : data = jmp(10);											// Jump to “wait”.
+			
+			// Normal
+			100: data = acc_reg(`SMT, `STACK0, `STACK1); 		// Stack[0] = Stack[0] * Stack[1].
+			101: data = jmp_eq(`FLAG, 8'b0000_0000, 103);			// Turn on Arithmetic Overflow LED if an overflow occurred ??
+			102: data = set_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED on.
+			103: data = clr_bit(`GOUT, `OFLW);  					// Turn off Stack Overflow LED.
+			104: data = mov(`STACK0, `DOUT);							// Display Stack[0] on the display.
+			105: data = mov(`STACK2, `STACK1);						// Move rest of stack down.
+			106: data = mov(`STACK3, `STACK2);																
+			107: data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
+			108: data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
+			109: data = jmp(10);											// Jump to “wait”.
 			
 			default: data = 35'b0;
 		endcase
@@ -112,9 +151,8 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 		input [2:0] bit;
 		clr_bit = {`ACC, `AND, `REG, reg_num, `NUM, ~(8'b1 << bit), `N8};
 	endfunction
-endmodule
-
-	// Part 2
+	
+		// Part 2
 	function [34:0] jmp_eq;
 		 input [7:0] reg_num;
 		 input [7:0] value;
@@ -123,9 +161,18 @@ endmodule
 	endfunction
 
 	function [34:0] mov_shift;
-		 input [2:0] shift;
+		 input [2:0] op;
 		 input [7:0] src_reg;
 		 input [7:0] dst_reg;
-		 mov_shift = {`MOV, shift, `REG, src_reg, `REG, dst_reg, `N8};
+		 mov_shift = {`MOV, op, `REG, src_reg, `REG, dst_reg, `N8};
 	endfunction	
 	
+	function [34:0] acc_reg;
+		 input [2:0] op;
+		 input [7:0] reg1;
+		 input [7:0] reg2;
+		 acc_reg = {`ACC, op, `REG, reg1, `REG, reg2, `N8};
+	endfunction
+
+endmodule
+

@@ -36,7 +36,7 @@ module TestCalc;
 		.Dval(Dval),
 		.GPO(leds[5:0]),
 		.Debug(leds[9:6]),
-		.IP(IP));
+		.IP_OUT(IP));
 
 
 	// A "task" is like a function

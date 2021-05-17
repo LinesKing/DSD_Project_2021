@@ -1,0 +1,263 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/leqin/DSD_Project_2021/MyTestRPN/simulation/modelsim
+vAsyncROM
+Z1 !s110 1621233344
+!i10b 1
+!s100 AFEf_fGOYD<?U_Qc8a<fh2
+IA>BcNolM_=U[5X?2R79S22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621233110
+8C:/Users/leqin/DSD_Project_2021/MyTestRPN/ROM.v
+FC:/Users/leqin/DSD_Project_2021/MyTestRPN/ROM.v
+L0 21
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621233344.000000
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.vh|C:/Users/leqin/DSD_Project_2021/MyTestRPN/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN|C:/Users/leqin/DSD_Project_2021/MyTestRPN/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN
+Z7 tCvgOpt 0
+n@async@r@o@m
+vCPU
+R1
+!i10b 1
+!s100 ElKY^aaK8<g;2Y4c7L^;n2
+IHC;B<fgBZYBmCL2JT>KUa3
+R2
+R0
+Z8 w1621227919
+8C:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.v
+FC:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.vh|C:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN|C:/Users/leqin/DSD_Project_2021/MyTestRPN/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vDebounce
+R1
+!i10b 1
+!s100 =odRZGQ>adi1lZgE18OCI1
+IJBNlh5ZgzUVg3YIeo;zQz1
+R2
+R0
+R8
+Z9 8C:/Users/leqin/DSD_Project_2021/MyTestRPN/AuxMod.v
+Z10 FC:/Users/leqin/DSD_Project_2021/MyTestRPN/AuxMod.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/leqin/DSD_Project_2021/MyTestRPN/AuxMod.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN|C:/Users/leqin/DSD_Project_2021/MyTestRPN/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R1
+!i10b 1
+!s100 QPJfV5`=9][ZzoHKTSi[Z3
+Iz:4imzWkKP?j0jUlTiL[D2
+R2
+R0
+R8
+R9
+R10
+L0 99
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R1
+!i10b 1
+!s100 jEk;:IoBi^3Q:DW5GQDRB1
+I;gGU>R]F_@L^[FWGE5]m02
+R2
+R0
+R8
+R9
+R10
+L0 37
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R1
+!i10b 1
+!s100 =3R1XGOOGEKQmN5cd_Ok50
+IO54RS55[]cSTz>Ae3B>MG1
+R2
+R0
+R8
+R9
+R10
+L0 51
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R1
+!i10b 1
+!s100 CnNn:N5=[fzo;0daQPP6F1
+IODm`0WaV5ooOKd;[@@BzF3
+R2
+R0
+R8
+R9
+R10
+L0 63
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+R1
+!i10b 1
+!s100 TMI621n?6IN?Ang`J3kK`1
+I<@a_3ITf`=1N1`4VQjNEH2
+R2
+R0
+R8
+8C:/Users/leqin/DSD_Project_2021/MyTestRPN/MyComputer.v
+FC:/Users/leqin/DSD_Project_2021/MyTestRPN/MyComputer.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestRPN/MyComputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN|C:/Users/leqin/DSD_Project_2021/MyTestRPN/MyComputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R1
+!i10b 1
+!s100 h7GHzzgZcBDT>90[HC84z2
+IUgl8gF<ikGRQ0KK]BnWQz1
+R2
+R0
+R8
+R9
+R10
+L0 69
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R1
+!i10b 1
+!s100 `E6=Sn7?nUWE:kXDaJ^bU1
+I7mUGlg2LCINbhgVEWlmdl3
+R2
+R0
+R8
+R9
+R10
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@synchroniser
+vTestCalc
+R1
+!i10b 1
+!s100 UWXFT[]5PKHd2gln0BjiJ0
+ImEj[@3@_zX`lEQ`QE^Ldb0
+R2
+R0
+w1621233332
+8C:/Users/leqin/DSD_Project_2021/MyTestRPN/TestCalc.v
+FC:/Users/leqin/DSD_Project_2021/MyTestRPN/TestCalc.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/leqin/DSD_Project_2021/MyTestRPN/TestCalc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leqin/DSD_Project_2021/MyTestRPN|C:/Users/leqin/DSD_Project_2021/MyTestRPN/TestCalc.v|
+!i113 1
+R5
+R6
+R7
+n@test@calc
