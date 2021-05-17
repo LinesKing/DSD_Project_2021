@@ -27,8 +27,9 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 			2  : data = set(`STACK2, `N8);
 			3  : data = set(`STACK3, `N8);
 			4  : data = set(`STKSIZ, `N8);  							// Set the stack size to zero, and turn off the LEDs and display. 
-			5  : data = set(`GOUT, 128);
+			5  : data = set(`GOUT, 8'b1000_0000);
 			6  : data = set(`DOUT, `N8);
+			7  : data = jmp(110);             	 					// Send the contents of Register[4] to the LED pins.
 			
 			// Wait
 			10 : data = atc(`SMPL, 20);  								// Jump to “push” if the Push button has been released.
@@ -46,9 +47,17 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 			25 : data = jmp_eq(`STKSIZ, 8, 40);						// Jump to “overflow” if Register[4] equals 8.
 			26 : data = clr_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED off.
 			27 : data = clr_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED off.
-			28 : data = mov_shift(`SHL, `STKSIZ, `STKSIZ);     // Shift Register[4] to the left.
-			29 : data = mov(`STKSIZ, `GOUT);                   // Send the contents of Register[4] to the LED pins.
-			30 : data = jmp(10);											// Jump to “wait”.
+			
+			28 : data = jmp_eq(`STKSIZ, 0, 31);						// Jump to “overflow” if Register[4] equals 8.
+			29 : data = jmp_eq(`STKSIZ, 1, 34);
+			30 : data = jmp_eq(`STKSIZ, 2, 34);
+			30 : data = jmp_eq(`STKSIZ, 4, 34);
+			
+			31 : data = set(`STKSIZ, 1);     						// Shift Register[4] to the left. (STACK SIZE = 0)
+			32 : data = jmp(110);						            // Send the contents of Register[4] to the LED pins.
+			
+			34 : data = mov_shift(`SHL, `STKSIZ, `STKSIZ);     // Shift Register[4] to the left. (STACK SIZE >= 1)
+			35 : data = jmp(110);					               // Send the contents of Register[4] to the LED pins.
 			
 			// Overflow: stack
 			40 : data = set_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED on.
@@ -56,24 +65,26 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 			42 : data = jmp(10);											// Jump to “wait”.
 			
 			// Pop
-			50 : data = jmp_eq(`STKSIZ, 0, 40);						// Jump to “overflow” if Register[4] equals 8.
-			51 : data = clr_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED on.
+			50 : data = jmp_eq(`STKSIZ, 0, 10);						// Jump to “wait” if Register[4] equals 0.
+			51 : data = clr_bit(`GOUT, `OFLW);  					// Turn Stack Overflow LED off.
 			52 : data = clr_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED off.
 			53 : data = mov(`STACK1, `STACK0);                 // Shift the stack down.
 			54 : data = mov(`STACK2, `STACK1);
 			55 : data = mov(`STACK3, `STACK2);
 			56 : data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
-			57 : data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
-			58 : data = set(`DOUT, `N8);								// Turn off the 7-segment display ??
-			59 : data = jmp_eq(`STKSIZ, 0, 10); 					// Jump to “wait” if Register[4] equals zero	.
+			57 : data = set_bit(`STKSIZ, `DVAL);             	
+			58 : data = mov(`STKSIZ, `GOUT);
+			59 : data = clr_bit(`STKSIZ, `DVAL);		
+//			60 : data = set(`DOUT, `N8);								// Turn off the 7-segment display ??
 			60 : data = mov(`STACK0, `DOUT);							// Display stack[0] on the display.
-			61 : data = jmp(10);											// Jump to “wait”.
+			61 : data = jmp_eq(`STKSIZ, 0, 10); 					// Jump to “wait” if Register[4] equals zero	.
+			62 : data = jmp(10);											// Jump to “wait”.
 			
 			// Add
 			70 : data = clr_bit(`GOUT, `SHFT);						// Turn off Arithmetic Overflow LED.
 			71 : data = jmp_eq(`STKSIZ, 0, 10);						// Jump to “wait” if Register [4] equals 0 or 1.
 			72 : data = jmp_eq(`STKSIZ, 1, 10);
-			73 : data = acc(`SAD, `STACK0, `STACK1);				// Stack[0] = Stack[0] + Stack[1].
+			73 : data = acc_reg(`SAD, `STACK0, `STACK1);				// Stack[0] = Stack[0] + Stack[1].
 			74 : data = mov(`STACK0, `DOUT);							// Display Stack[0] on the display.
 			75 : data = jmp_eq(`FLAG, 8'b0000_0000, 77);			// Turn on Arithmetic Overflow LED if an overflow occurred ??
 			76 : data = set_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED on.
@@ -81,8 +92,7 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 			78 : data = mov(`STACK2, `STACK1);						// Move rest of stack down.
 			79 : data = mov(`STACK3, `STACK2);																
 			80 : data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
-			81 : data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
-			82 : data = jmp(10);											// Jump to “wait”.
+			81 : data = jmp(110);										// Send the contents of Register[4] to the LED pins.
 			
 			// Mult
 			90 : data = jmp_eq(`STKSIZ, 0, 10);						// Jump to “wait” if the stack is empty.
@@ -96,15 +106,20 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 			
 			// Normal
 			100: data = acc_reg(`SMT, `STACK0, `STACK1); 		// Stack[0] = Stack[0] * Stack[1].
-			101: data = jmp_eq(`FLAG, 8'b0000_0000, 103);			// Turn on Arithmetic Overflow LED if an overflow occurred ??
+			101: data = jmp_eq(`FLAG, 8'b0000_0000, 103);		// Turn on Arithmetic Overflow LED if an overflow occurred ??
 			102: data = set_bit(`GOUT, `SHFT);  					// Turn Arithmetic Overflow LED on.
 			103: data = clr_bit(`GOUT, `OFLW);  					// Turn off Stack Overflow LED.
 			104: data = mov(`STACK0, `DOUT);							// Display Stack[0] on the display.
 			105: data = mov(`STACK2, `STACK1);						// Move rest of stack down.
 			106: data = mov(`STACK3, `STACK2);																
 			107: data = mov_shift(`SHR, `STKSIZ, `STKSIZ);		// Shift Register[4] to the right.
-			108: data = mov(`STKSIZ, `GOUT);							// Send the contents of Register[4] to the LED pins.
-			109: data = jmp(10);											// Jump to “wait”.
+			108: data = jmp(110);										// Send the contents of Register[4] to the LED pins.
+			
+			// Send the contents of Register[4] to the LED pins
+			110: data = set_bit(`STKSIZ, `DVAL);             	
+			111: data = mov(`STKSIZ, `GOUT);
+			112: data = clr_bit(`STKSIZ, `DVAL);
+			113: data = jmp(10);
 			
 			default: data = 35'b0;
 		endcase
@@ -136,7 +151,7 @@ module AsyncROM(input [7:0] addr, output reg [34:0] data);
 		input [2:0] op;
 		input [7:0] reg_num;
 		input [7:0] value;
-		acc = {`ACC, op, `REG, reg_num, `NUM, value, `N8};
+		acc = {`ACC, op, `REG, reg_num, `REG, value, `N8};
 	endfunction
 	
 	// Stage 11

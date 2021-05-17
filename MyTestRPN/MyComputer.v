@@ -50,7 +50,7 @@ module MyComputer(
 	//=======================================================
 	 
 	Debounce db(.clk(Clock), .x(SW[9]), .y(Reset));
-	CPU cpu(.Btns(KEY[2:0]), .Clock(Clock), .Din(SW[7:0]), .Reset(Reset), .Sample(KEY[3]), 
+	CPU cpu(.Btns(~KEY[2:0]), .Clock(Clock), .Din(SW[7:0]), .Reset(Reset), .Sample(KEY[3]), 
 			.Turbo(SW[8]), .Debug(Debug), .Dout(Dout), .Dval(Dval), .GPO(GPO), .IP_OUT(IP));
 	Disp2cNum dnum(.enable(Dval), .x(Dout), .H0(HEX0), .H1(HEX1), .H2(HEX2), .H3(HEX3));
 	DispHex dh(.x(IP), .H0(HEX4), .H1(HEX5));
