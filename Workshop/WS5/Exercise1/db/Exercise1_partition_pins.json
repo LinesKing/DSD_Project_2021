@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "state_led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state_led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state_led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "seq",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

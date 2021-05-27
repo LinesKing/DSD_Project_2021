@@ -1,0 +1,62 @@
+# Reading D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do Exercise2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2 {C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:28:50 on May 22,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2" C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v 
+# -- Compiling module MyFruitBasket
+# -- Compiling module MyApple
+# -- Compiling module MyOrange
+# -- Compiling module MyLemon
+# 
+# Top level modules:
+# 	MyFruitBasket
+# End time: 18:28:50 on May 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2 {C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:28:51 on May 22,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2" C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v 
+# -- Compiling module test_MyFruitBasket
+# 
+# Top level modules:
+# 	test_MyFruitBasket
+# End time: 18:28:51 on May 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_MyFruitBasket
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_MyFruitBasket 
+# Start time: 18:28:51 on May 22,2021
+# Loading work.test_MyFruitBasket
+# Loading work.MyFruitBasket
+# Loading work.MyApple
+# Loading work.MyOrange
+# Loading work.MyLemon
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 00 0 0
+# 00 1 0
+# 01 0 0
+# 01 1 1
+# 10 0 1
+# 10 1 0
+# 11 0 1
+# 11 1 1
+# End time: 18:29:15 on May 22,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0

@@ -1,0 +1,9 @@
+
+State Machine - |MyFSM|state
+Name state.C_on state.B_on state.A_on state.C_off state.B_off state.A_off 
+state.A_off 0 0 0 0 0 0 
+state.B_off 0 0 0 0 1 1 
+state.C_off 0 0 0 1 0 1 
+state.A_on 0 0 1 0 0 1 
+state.B_on 0 1 0 0 0 1 
+state.C_on 1 0 0 0 0 1 

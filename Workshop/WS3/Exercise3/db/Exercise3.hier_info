@@ -1,0 +1,22 @@
+|ThreeDividers
+clk => clk.IN1
+Q[0] << Q_FF[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] << Q_FF[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] << MyClkDivider:Clk3.Q
+
+
+|ThreeDividers|MyClkDivider:Clk1
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeDividers|MyClkDivider:Clk2
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ThreeDividers|MyClkDivider:Clk3
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

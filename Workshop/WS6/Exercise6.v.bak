@@ -1,0 +1,216 @@
+module Exercise6(
+	input CLOCK_50, 
+	input [3:1] KEY, 
+	output [9:0] LEDR, 
+	output [6:0] HEX5, HEX4, HEX3, HEX2, HEX1, HEX0); 
+	
+	wire c = CLOCK_50; 
+	assign LEDR[9:4] = 0; 
+	wire [2:0] in; 
+	
+	Synchroniser #(3) sync(.clk(c), .in(~KEY[3:1]), .out(in)); 
+	wire [1:0] mode; 
+	
+	ModeSelector ms(.clk(c), .in(in[2]), .mode(mode)); 
+	wire reset = (mode == 2'd3); 
+	wire fast = (mode == 2'd1); 
+	wire roll = (mode == 2'd0) || (mode == 2'd1); 
+	wire edit = (mode == 2'd2); 
+	
+	genvar i; 
+	generate for(i=0; i<=3; i=i+1) begin :leds 
+		assign LEDR[i] = (mode == i); 
+		end 
+	endgenerate 
+	
+	wire inc, nxt; 
+	RisingEdgeDetector red1(.clk(c), .in(in[1]), .out(inc)); 
+	RisingEdgeDetector red0(.clk(c), .in(in[0]), .out(nxt)); 
+	
+	wire we; 
+	wire [39:0] mem_in, mem; 
+	Memory memory(.clk(c), .reset(reset), .we(we), .data_in(mem_in), .data_out(mem));
+	
+	wire [5:0] roll_e; 
+	wire [23:0] roll_d; 
+	RollingDisplay rd(.clk(c), .mem(mem), .fast(fast), .d(roll_d), .e(roll_e)); 
+	
+	wire [5:0] edit_e; 
+	wire [23:0] edit_d; 
+	EditMemory em(.clk(c), .inc(edit ? inc : 1'b0), .nxt(edit ? nxt : 1'b0), .reset(reset), .we(we), .mem_in(mem_in), .mem(mem), .e(edit_e), .d(edit_d)); 
+	
+	wire [5:0] e = roll ? roll_e : edit_e; 
+	wire [23:0] d = roll ? roll_d : edit_d; 
+	SSegEn s0(.bin(d[3:0]), .en(e[0]), .segs(HEX0)); 
+	SSegEn s1(.bin(d[7:4]), .en(e[1]), .segs(HEX1)); 
+	SSegEn s2(.bin(d[11:8]), .en(e[2]), .segs(HEX2)); 
+	SSegEn s3(.bin(d[15:12]), .en(e[3]), .segs(HEX3)); 
+	SSegEn s4(.bin(d[19:16]), .en(e[4]), .segs(HEX4)); 
+	SSegEn s5(.bin(d[23:20]), .en(e[5]), .segs(HEX5)); 
+endmodule
+
+module Synchroniser(clk, in, out);
+	parameter n = 1;
+	input clk;
+	input [n-1:0] in;
+	output reg [n-1:0] out;
+	
+	reg [n-1:0] buff;
+	always @(posedge clk) begin
+		buff <= in;
+		out <= buff;
+	end
+endmodule
+
+module ModeSelector(input clk, in, output reg [1:0] mode); 
+	localparam millisecond = 50_000; 
+	localparam half_second = 500*millisecond; 
+	localparam two_seconds = 4*half_second; 
+	localparam size = $clog2(two_seconds);  
+	
+	reg [size-1:0] cnt = 0, next_cnt; 
+	reg [1:0] next_mode; 
+	
+	always @(posedge clk) {mode, cnt} <= {next_mode, next_cnt}; 
+
+	always @(*) begin 
+		next_cnt = cnt+1'b1; 
+		next_mode = mode; 
+		if (in) begin 
+			if (cnt == millisecond) next_mode = (mode == 2'd0) ? 2'd1 : 2'd0; 
+			if (cnt == half_second) next_mode = 2'd2; 
+			if (cnt >= two_seconds) begin 
+				next_cnt = cnt; 
+				next_mode = 2'd3; 
+			end 
+		end 
+		else begin 
+			next_cnt = 0; 
+			if (cnt >= two_seconds) next_mode = 2'd0; 
+		end 
+	end 
+endmodule
+
+module RisingEdgeDetector(input clk, in, output out); 
+	reg prev; 
+	always @(posedge clk) 
+		prev <= in; 
+	assign out = !prev && in; 
+endmodule
+
+module Memory( 
+	input clk, we, reset, 
+	input [39:0] data_in, 
+	output [39:0] data_out);
+	
+	parameter bits = 1;
+	
+	reg [39:0] mem;
+	
+	always @(posedge clk) 
+		if (reset) mem <= 0; 
+		else if (we) mem <= data_in;
+
+	assign data_out = mem; 
+endmodule
+
+module EditMemory( 
+	input clk, inc, nxt, reset,
+	output reg we = 0, 
+	output reg [39:0] mem_in = 0, 
+	input [39:0] mem, 
+	output [5:0] e, 
+	output [23:0] d);
+	
+	reg [3:0] addr = 0, next_addr; 
+	reg next_we; 
+	reg [39:0] next_mem_in;
+
+	always @(posedge clk) {addr, we, mem_in} <= reset ? {4'd0, 1'd0, 40'bx} 
+		: {next_addr, next_we, next_mem_in};
+		
+	always @(*) begin 
+		next_we = 0; 
+		next_mem_in = 40'bx; 
+		next_addr = addr; 
+		if (inc) begin 
+			next_mem_in = mem; 
+			next_mem_in[addr*4 +: 4] = (mem[addr*4 +: 4] + 1'd1) % 4'd10; 
+			next_we = 1; 
+		end 
+		else if (nxt) 
+			next_addr = (addr + 1'd1) % 4'd10; 
+	end
+
+	wire [3:0] d0 = mem[addr*4 +: 4]; 
+	wire [3:0] d4 = (addr + 1'd1) % 4'd10; 
+	wire [3:0] d5 = (addr + 1'd1) / 4'd10; 
+	assign e = 6'b11_0001; 
+	assign d = {d5, d4, {3{4'bx}}, d0}; 
+endmodule	
+
+module RollingDisplay( 
+	input clk, fast, 
+	input [39:0] mem, 
+	output reg [5:0] e, 
+	output reg [23:0] d);
+	
+	localparam MaxCnt = 20_000_000; 
+	localparam n = $clog2(MaxCnt); 
+	localparam FastMC = 4_000_000;
+	
+	reg [3:0] pos = 0, next_pos; 
+	reg [n-1:0] cnt = 0, next_cnt; 
+	
+	always @(posedge clk) 
+		{pos, cnt} <= {next_pos, next_cnt}; 
+	
+	always @(*) begin 
+		next_cnt = cnt+1'd1; 
+		next_pos = pos; 
+		if (next_cnt >= (fast ? FastMC : MaxCnt)) begin 
+			next_cnt = 0; 
+			next_pos = pos+1'd1; 
+		end 
+	end
+	
+	always @(*) begin :need_name_to_define_local_variable 
+		integer i; 
+		for(i=0; i<=5; i=i+1) begin 
+			e[i] = 0; 
+			d[i*4 +: 4] = 4'bxxxx; //d[i*4+3:i*4]
+			if ((1+i <= pos) && (pos <= 10+i)) begin 
+				e[i] = 1; 
+				d[i*4 +: 4] = mem[(pos-i-1)*4 +: 4]; 
+			end 
+		end 
+	end 
+endmodule
+
+module SSegEn(
+	input [3:0] bin, 
+	input en, 
+	output reg [6:0] segs); 
+	
+	always @(*) 
+		if (en) 
+			case (bin) 
+				0: segs = 7'b100_0000; 
+				1: segs = 7'b111_1001; 
+				2: segs = 7'b010_0100; 
+				3: segs = 7'b011_0000; 
+				4: segs = 7'b001_1001; 
+				5: segs = 7'b001_0010; 
+				6: segs = 7'b000_0010; 
+				7: segs = 7'b111_1000; 
+				8: segs = 7'b000_0000; 
+				9: segs = 7'b001_1000; 
+				10: segs = 7'b000_1000; 
+				11: segs = 7'b000_0011; 
+				12: segs = 7'b100_0110; 
+				13: segs = 7'b010_0001; 
+				14: segs = 7'b000_0110; 
+				15: segs = 7'b000_1110; 
+			endcase 
+		else segs = 7'b111_1111; 
+endmodule

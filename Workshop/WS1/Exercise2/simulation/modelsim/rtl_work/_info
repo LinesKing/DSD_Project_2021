@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/simulation/modelsim
+vMyApple
+Z1 !s110 1621672130
+!i10b 1
+!s100 PR5A7jhVO9=96o6C<I9Z;3
+I;GMNkY85m^3716mnD_n9R3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1583734818
+Z4 8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v
+Z5 FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v
+L0 8
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621672130.000000
+Z8 !s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2}
+Z12 tCvgOpt 0
+n@my@apple
+vMyFruitBasket
+R1
+!i10b 1
+!s100 LM`Vlm?d<_zHlb:^_5h4b3
+IgQ^?a8dARge<]7C6nnP]W1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@fruit@basket
+vMyLemon
+R1
+!i10b 1
+!s100 EGobnPhZ:2Ae9;cHY?FGC0
+I<T>TkCzC2_UkR0cFYHe>01
+R2
+R0
+R3
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@lemon
+vMyOrange
+R1
+!i10b 1
+!s100 W1VA]:Jo6z?=EOV?EjHg>3
+I^JDV1UT8zWE?YoeLAOdaF2
+R2
+R0
+R3
+R4
+R5
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@orange
+vtest_MyFruitBasket
+!s110 1621672131
+!i10b 1
+!s100 D^7@0LCgOSEkBBSGNCF5R0
+IT7GKF=R0_T8`X?3?[9zGA2
+R2
+R0
+w1583735492
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1621672131.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v|
+!i113 1
+R10
+R11
+R12
+ntest_@my@fruit@basket

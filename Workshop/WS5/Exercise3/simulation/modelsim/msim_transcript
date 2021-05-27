@@ -1,0 +1,56 @@
+# Reading D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do Exercise3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Lines/Quartus/Digital\ System\ Design\ ELEN30010_2020_SM1/WS5/Exercise3 {D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:33:38 on May 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3" D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v 
+# -- Compiling module Synchroniser
+# -- Compiling module EdgeDetector
+# -- Compiling module EdgeDetectors
+# -- Compiling module MyFSM
+# -- Compiling module MyLock
+# 
+# Top level modules:
+# 	MyLock
+# End time: 13:33:38 on May 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Lines/Quartus/Digital\ System\ Design\ ELEN30010_2020_SM1/WS5/Exercise3 {D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:33:38 on May 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3" D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v 
+# -- Compiling module test_MyLock
+# 
+# Top level modules:
+# 	test_MyLock
+# End time: 13:33:38 on May 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_MyLock
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_MyLock 
+# Start time: 13:33:38 on May 15,2020
+# Loading work.test_MyLock
+# Loading work.MyLock
+# Loading work.Synchroniser
+# Loading work.EdgeDetectors
+# Loading work.MyFSM
+# Loading work.EdgeDetector
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 15:16:49 on May 15,2020, Elapsed time: 1:43:11
+# Errors: 0, Warnings: 0

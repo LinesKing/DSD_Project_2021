@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/WS3/Exercise2/simulation/modelsim
+vMyMUX
+Z1 !s110 1616649152
+!i10b 1
+!s100 o=cDhH<6f66<F^^zmI6Vj0
+IdiVWkHW:GJb:M?]F]C;9[1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1585014741
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/mymux.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise2/mymux.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1616649152.000000
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/mymux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise2|C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/mymux.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise2}
+Z7 tCvgOpt 0
+n@my@m@u@x
+vMySyncMUX
+R1
+!i10b 1
+!s100 ]Rd3^?U[1APMa6<BS_k343
+IWkGIYl72IbIX3=lIkk0BR1
+R2
+R0
+w1585012938
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/MySyncMUX.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise2/MySyncMUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/MySyncMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise2|C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/MySyncMUX.v|
+!i113 1
+R5
+R6
+R7
+n@my@sync@m@u@x
+vtest_MySyncMUX
+R1
+!i10b 1
+!s100 B1UA6`i2LLRKz;Sj^?<2`1
+I^b_n9?hefM_C2h[l^N=Mc2
+R2
+R0
+w1585010446
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/test_MySyncMUX.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise2/test_MySyncMUX.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/test_MySyncMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise2|C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/test_MySyncMUX.v|
+!i113 1
+R5
+R6
+R7
+ntest_@my@sync@m@u@x

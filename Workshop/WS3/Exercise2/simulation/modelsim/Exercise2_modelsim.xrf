@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/MySyncMUX.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/test_MySyncMUX.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/WS3/Exercise2/mymux.v
+design_name = MySyncMUX
+instance = comp, \m_sync~output , m_sync~output, MySyncMUX, 1
+instance = comp, \clk~input , clk~input, MySyncMUX, 1
+instance = comp, \y~input , y~input, MySyncMUX, 1
+instance = comp, \s~input , s~input, MySyncMUX, 1
+instance = comp, \x~input , x~input, MySyncMUX, 1
+instance = comp, \MUX|m~0 , MUX|m~0, MySyncMUX, 1
+instance = comp, \m_sync~reg0 , m_sync~reg0, MySyncMUX, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, MySyncMUX, 1

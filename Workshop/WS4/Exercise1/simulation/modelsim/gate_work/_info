@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/WS4/Exercise1/simulation/modelsim
+vhard_block
+Z1 !s110 1617259002
+!i10b 1
+!s100 aBIGK^5g9OT@Ge=XY7[?E0
+IEm1JZ1j<5]Jk0[_<HOW5N3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1617253629
+Z4 8Exercise1_6_1200mv_85c_slow.vo
+Z5 FExercise1_6_1200mv_85c_slow.vo
+L0 871
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1617259002.000000
+Z8 !s107 Exercise1_6_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Exercise1_6_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vMyPipeline2
+R1
+!i10b 1
+!s100 [aAMTfBIkEJfCmKo_I_dP0
+IDAnVjOB[GAaXBgH:bDfLD3
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@pipeline2
+vtest_MyMult1
+R1
+!i10b 1
+!s100 ^A_Z1T_S]FjNPVFNcDnjP0
+IjnA3oKnm@zUFSNL_ABRZh2
+R2
+R0
+Z13 w1587698825
+Z14 8C:/Users/cassi/Desktop/verilog code/WS4/Exercise1/test_MyMult.v
+Z15 FC:/Users/cassi/Desktop/verilog code/WS4/Exercise1/test_MyMult.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+Z16 !s107 C:/Users/cassi/Desktop/verilog code/WS4/Exercise1/test_MyMult.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS4/Exercise1|C:/Users/cassi/Desktop/verilog code/WS4/Exercise1/test_MyMult.v|
+!i113 1
+R10
+Z18 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/WS4/Exercise1}
+R12
+ntest_@my@mult1
+vtest_MyMult2
+R1
+!i10b 1
+!s100 WXnI2WoAfm<cGSQk6[z680
+I2B=jAKU>I?>fN1BJm3gAW3
+R2
+R0
+R13
+R14
+R15
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R18
+R12
+ntest_@my@mult2
+vtest_MyPipeline
+R1
+!i10b 1
+!s100 On5FP`3KFZ5eXeX6Of]I[3
+IERLk5g>B0hYhWQc`lfkJ_3
+R2
+R0
+R13
+R14
+R15
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R18
+R12
+ntest_@my@pipeline
+vtest_MyPipeline2
+R1
+!i10b 1
+!s100 RAA<QIdFWd7z8Q>E7Z>Yk3
+IEkI48=>>e6:kK[8[;T09c0
+R2
+R0
+R13
+R14
+R15
+L0 47
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R18
+R12
+ntest_@my@pipeline2

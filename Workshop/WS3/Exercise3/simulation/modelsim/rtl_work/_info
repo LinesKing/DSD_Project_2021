@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/WS3/Exercise3/simulation/modelsim
+vMyClkDivider
+Z1 !s110 1616652118
+!i10b 1
+!s100 `V6WXOlblNPF@8Y[C:o071
+IP3lhmBETC@WG]?J1zT:FJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1585106779
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/MyClkDivider.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise3/MyClkDivider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1616652118.000000
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/MyClkDivider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise3|C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/MyClkDivider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise3}
+Z7 tCvgOpt 0
+n@my@clk@divider
+vtest_ThreeDividers
+R1
+!i10b 1
+!s100 iSQgfE=Tc?;OH2F4MH77a2
+IaB]2fa>]B=Yj2c2Wm?8Ff2
+R2
+R0
+w1585106066
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/test_ThreeDividers.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise3/test_ThreeDividers.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/test_ThreeDividers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise3|C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/test_ThreeDividers.v|
+!i113 1
+R5
+R6
+R7
+ntest_@three@dividers
+vThreeDividers
+R1
+!i10b 1
+!s100 l]:4dYiJRW>PdOHCIT@da3
+Ie0?[m`0lPmHoO@4QYCG;Y0
+R2
+R0
+w1585107252
+8C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/ThreeDividers.v
+FC:/Users/cassi/Desktop/verilog code/WS3/Exercise3/ThreeDividers.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/ThreeDividers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS3/Exercise3|C:/Users/cassi/Desktop/verilog code/WS3/Exercise3/ThreeDividers.v|
+!i113 1
+R5
+R6
+R7
+n@three@dividers

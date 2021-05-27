@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.476
+TNS   : -3.476
+
+Type  : Slow 1100mV 85C Model Setup 'MyClkDivider:Clk1|Q'
+Slack : -1.849
+TNS   : -1.849
+
+Type  : Slow 1100mV 85C Model Setup 'MyClkDivider:Clk2|Q'
+Slack : -0.644
+TNS   : -1.283
+
+Type  : Slow 1100mV 85C Model Hold 'MyClkDivider:Clk2|Q'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'MyClkDivider:Clk1|Q'
+Slack : 0.610
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 1.388
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'MyClkDivider:Clk2|Q'
+Slack : -0.394
+TNS   : -1.252
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -0.753
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'MyClkDivider:Clk1|Q'
+Slack : -0.394
+TNS   : -0.589
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.237
+TNS   : -3.237
+
+Type  : Slow 1100mV 0C Model Setup 'MyClkDivider:Clk1|Q'
+Slack : -1.733
+TNS   : -1.733
+
+Type  : Slow 1100mV 0C Model Setup 'MyClkDivider:Clk2|Q'
+Slack : -0.565
+TNS   : -1.125
+
+Type  : Slow 1100mV 0C Model Hold 'MyClkDivider:Clk2|Q'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'MyClkDivider:Clk1|Q'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 1.289
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'MyClkDivider:Clk2|Q'
+Slack : -0.394
+TNS   : -1.154
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -0.674
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'MyClkDivider:Clk1|Q'
+Slack : -0.394
+TNS   : -0.530
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.342
+TNS   : -2.342
+
+Type  : Fast 1100mV 85C Model Setup 'MyClkDivider:Clk1|Q'
+Slack : -1.220
+TNS   : -1.220
+
+Type  : Fast 1100mV 85C Model Setup 'MyClkDivider:Clk2|Q'
+Slack : -0.101
+TNS   : -0.200
+
+Type  : Fast 1100mV 85C Model Hold 'MyClkDivider:Clk2|Q'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'MyClkDivider:Clk1|Q'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.987
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.325
+TNS   : -0.328
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'MyClkDivider:Clk2|Q'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'MyClkDivider:Clk1|Q'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.818
+TNS   : -1.818
+
+Type  : Fast 1100mV 0C Model Setup 'MyClkDivider:Clk1|Q'
+Slack : -1.064
+TNS   : -1.064
+
+Type  : Fast 1100mV 0C Model Setup 'MyClkDivider:Clk2|Q'
+Slack : -0.043
+TNS   : -0.085
+
+Type  : Fast 1100mV 0C Model Hold 'MyClkDivider:Clk2|Q'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'MyClkDivider:Clk1|Q'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.349
+TNS   : -0.359
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'MyClkDivider:Clk2|Q'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'MyClkDivider:Clk1|Q'
+Slack : 0.163
+TNS   : 0.000
+
+------------------------------------------------------------

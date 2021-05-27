@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/simulation/modelsim
+vMyDE1Board
+Z1 !s110 1621672343
+!i10b 1
+!s100 GG[YU9VKRCGT`26^ia3>[3
+IM?>IOZBFC;D4zYRBkXU<Y3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1584165306
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyDE1Board.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyDE1Board.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621672343.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyDE1Board.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyDE1Board.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder}
+Z7 tCvgOpt 0
+n@my@d@e1@board
+vMyFullAdder
+R1
+!i10b 1
+!s100 6CF9NL7?lc7:=F3_a9^Mj3
+ImB^9lU9bHBDEijEf^eLGk3
+R2
+R0
+Z8 w1584159942
+Z9 8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyAdder.v
+Z10 FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyAdder.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyAdder.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyAdder.v|
+!i113 1
+R5
+R6
+R7
+n@my@full@adder
+vMyHalfAdder
+R1
+!i10b 1
+!s100 MXmFWBNQ>JbJ?^_NQAzPS2
+IWoK9A<O2agM;O?[NLcbkA3
+R2
+R0
+R8
+R9
+R10
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@my@half@adder
+vMyRippleCarryAdder
+R1
+!i10b 1
+!s100 hk<8loA=Enmb^D52GDbER0
+In9iKDR4KJS<OLTMai`P>G2
+R2
+R0
+w1584341284
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyRippleCarryAdder.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyRippleCarryAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyRippleCarryAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MyRippleCarryAdder.v|
+!i113 1
+R5
+R6
+R7
+n@my@ripple@carry@adder
+vMySevenSegmentDisplay
+R1
+!i10b 1
+!s100 :Jh2Vb6db87diTnck@VSC0
+I8_P`B:9dgZ[d[KlV==V590
+R2
+R0
+w1583737268
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MySevenSegmentDisplay.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MySevenSegmentDisplay.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MySevenSegmentDisplay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/MySevenSegmentDisplay.v|
+!i113 1
+R5
+R6
+R7
+n@my@seven@segment@display
+vtest_MyFullAdder
+R1
+!i10b 1
+!s100 AL[1A0jCFchAnF_B_JQQE0
+IN8IObXRGD9;?gR?nh6HZU2
+R2
+R0
+w1584160380
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/test_MyFullAdder.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/test_MyFullAdder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/test_MyFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS2/MyAdder/test_MyFullAdder.v|
+!i113 1
+R5
+R6
+R7
+ntest_@my@full@adder

@@ -1,0 +1,8 @@
+|MyMUX
+x => N2.IN0
+y => N3.IN0
+s => N3.IN1
+s => N2.IN1
+m << m.DB_MAX_OUTPUT_PORT_TYPE
+
+

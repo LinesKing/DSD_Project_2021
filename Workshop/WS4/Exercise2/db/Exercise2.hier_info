@@ -1,0 +1,209 @@
+|Pipeline
+x[0] => xx[0].DATAIN
+x[1] => xx[1].DATAIN
+x[2] => xx[2].DATAIN
+x[3] => xx[3].DATAIN
+clk => clk.IN2
+PB[0] => PB[0].IN1
+D4[0] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[1] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[2] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[3] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[4] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[5] <= MySevenSegmentDisplay:Display4.DISPLAY
+D4[6] <= MySevenSegmentDisplay:Display4.DISPLAY
+D3[0] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[1] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[2] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[3] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[4] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[5] <= MySevenSegmentDisplay:Display3.DISPLAY
+D3[6] <= MySevenSegmentDisplay:Display3.DISPLAY
+D2[0] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[1] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[2] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[3] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[4] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[5] <= MySevenSegmentDisplay:Display2.DISPLAY
+D2[6] <= MySevenSegmentDisplay:Display2.DISPLAY
+D1[0] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[1] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[2] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[3] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[4] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[5] <= MySevenSegmentDisplay:Display1.DISPLAY
+D1[6] <= MySevenSegmentDisplay:Display1.DISPLAY
+D0[0] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[1] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[2] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[3] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[4] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[5] <= MySevenSegmentDisplay:Display0.DISPLAY
+D0[6] <= MySevenSegmentDisplay:Display0.DISPLAY
+yy[0] <= yy[0].DB_MAX_OUTPUT_PORT_TYPE
+yy[1] <= yy[1].DB_MAX_OUTPUT_PORT_TYPE
+yy[2] <= yy[2].DB_MAX_OUTPUT_PORT_TYPE
+yy[3] <= yy[3].DB_MAX_OUTPUT_PORT_TYPE
+yy[4] <= yy[4].DB_MAX_OUTPUT_PORT_TYPE
+yy[5] <= yy[5].DB_MAX_OUTPUT_PORT_TYPE
+yy[6] <= yy[6].DB_MAX_OUTPUT_PORT_TYPE
+yy[7] <= yy[7].DB_MAX_OUTPUT_PORT_TYPE
+yy[8] <= yy[8].DB_MAX_OUTPUT_PORT_TYPE
+yy[9] <= yy[9].DB_MAX_OUTPUT_PORT_TYPE
+yy[10] <= yy[10].DB_MAX_OUTPUT_PORT_TYPE
+yy[11] <= yy[11].DB_MAX_OUTPUT_PORT_TYPE
+yy[12] <= yy[12].DB_MAX_OUTPUT_PORT_TYPE
+yy[13] <= yy[13].DB_MAX_OUTPUT_PORT_TYPE
+yy[14] <= yy[14].DB_MAX_OUTPUT_PORT_TYPE
+yy[15] <= yy[15].DB_MAX_OUTPUT_PORT_TYPE
+yy[16] <= yy[16].DB_MAX_OUTPUT_PORT_TYPE
+yy[17] <= yy[17].DB_MAX_OUTPUT_PORT_TYPE
+yy[18] <= yy[18].DB_MAX_OUTPUT_PORT_TYPE
+yy[19] <= yy[19].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|Syn:sync
+clk => b.CLK
+clk => a.CLK
+ext_in => a.DATAIN
+sync_out <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|EdgeDetector:enable
+clk => curr.CLK
+clk => prev.CLK
+IN => curr.DATAIN
+OUT <= OUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MyPipeline:ppl
+clk => y[0]~reg0.CLK
+clk => y[1]~reg0.CLK
+clk => y[2]~reg0.CLK
+clk => y[3]~reg0.CLK
+clk => y[4]~reg0.CLK
+clk => y[5]~reg0.CLK
+clk => y[6]~reg0.CLK
+clk => y[7]~reg0.CLK
+clk => y[8]~reg0.CLK
+clk => y[9]~reg0.CLK
+clk => y[10]~reg0.CLK
+clk => y[11]~reg0.CLK
+clk => y[12]~reg0.CLK
+clk => y[13]~reg0.CLK
+clk => y[14]~reg0.CLK
+clk => y[15]~reg0.CLK
+clk => y[16]~reg0.CLK
+clk => y[17]~reg0.CLK
+clk => y[18]~reg0.CLK
+clk => y[19]~reg0.CLK
+clk => x2[0].CLK
+clk => x2[1].CLK
+clk => x2[2].CLK
+clk => x2[3].CLK
+clk => x2[4].CLK
+clk => x2[5].CLK
+clk => x2[6].CLK
+clk => x2[7].CLK
+clk => x2[8].CLK
+clk => x2[9].CLK
+clk => x0[0].CLK
+clk => x0[1].CLK
+clk => x0[2].CLK
+clk => x0[3].CLK
+x[0] => x0[0].DATAIN
+x[1] => x0[1].DATAIN
+x[2] => x0[2].DATAIN
+x[3] => x0[3].DATAIN
+y[0] <= y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= y[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[10] <= y[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[11] <= y[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[12] <= y[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[13] <= y[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[14] <= y[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[15] <= y[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[16] <= y[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[17] <= y[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[18] <= y[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[19] <= y[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MySevenSegmentDisplay:Display4
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MySevenSegmentDisplay:Display3
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MySevenSegmentDisplay:Display2
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MySevenSegmentDisplay:Display1
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Pipeline|MySevenSegmentDisplay:Display0
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

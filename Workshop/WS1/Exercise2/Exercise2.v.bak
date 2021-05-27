@@ -1,0 +1,3 @@
+module MyApple (input A, input S0, output x);
+    assign x = A & ~S0;
+endmodule

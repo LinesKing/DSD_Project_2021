@@ -1,0 +1,21 @@
+`timescale 1ns/1ps
+
+module test_MyMult1;
+    reg [3:0] x;
+	 wire [19:0] y;
+	 MyMult1 MyMult1_test(.x(x), .y(y));
+	 initial begin
+		 x = 4'b0000;
+		 #20 x = 4'b1010;
+	 end
+endmodule
+
+module test_MyMult2;
+    reg [3:0] x;
+	 wire [19:0] y;
+	 MyMult12 MyMult2_test(.x(x), .y(y));
+	 initial begin
+		 x = 4'b0000;
+		 #20 x = 4'b1010;
+	 end
+endmodule

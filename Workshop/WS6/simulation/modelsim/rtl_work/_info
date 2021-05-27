@@ -1,0 +1,401 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/simulation/modelsim
+vCounter
+Z1 !s110 1590319366
+!i10b 1
+!s100 5Y2QW8Q?KV9kELA^o?mOC1
+IgYM4i=liz7[HKg;VZFFfY3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1590231716
+Z4 8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise1.v
+Z5 FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise1.v
+L0 47
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1590319366.000000
+Z8 !s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise1.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise1.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6}
+Z12 tCvgOpt 0
+n@counter
+vDebouncer
+R1
+!i10b 1
+!s100 J>4`R5Z[;S^W56[oe5MdN3
+I>f<AM[6VSg>M62DX<]z6X2
+R2
+R0
+R3
+R4
+R5
+L0 79
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@debouncer
+vEditMemory
+R1
+!i10b 1
+!s100 WBmFj1_YBahj_bmj:=gUE3
+I232R>NLHFn?2C@AKbLSX>0
+R2
+R0
+Z13 w1590246949
+Z14 8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise3.v
+Z15 FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise3.v
+L0 61
+R6
+r1
+!s85 0
+31
+R7
+Z16 !s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise3.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise3.v|
+!i113 1
+R10
+R11
+R12
+n@edit@memory
+vExercise1
+R1
+!i10b 1
+!s100 c47@U7_miFzb_A92e]65n1
+I_0W[NTm8kEUg3mfO9ZJ6W1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@exercise1
+vExercise2
+R1
+!i10b 1
+!s100 gl@<>@@9dj?c59o>R7T:U1
+IZEh@R7L5FSTbIzjeC`Dj<0
+R2
+R0
+Z18 w1590303066
+Z19 8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise2.v
+Z20 FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z21 !s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise2.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise2.v|
+!i113 1
+R10
+R11
+R12
+n@exercise2
+vExercise3
+R1
+!i10b 1
+!s100 gBfXB?ghMeCnmbCBYb80_1
+I8m>6AVgIoQemzlVUOV;Qg3
+R2
+R0
+R13
+R14
+R15
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R11
+R12
+n@exercise3
+vExercise4
+R1
+!i10b 1
+!s100 dM_:XJSHPSNaViZKB=`;80
+INGWOiWR:O]_c9bC5z4Ym43
+R2
+R0
+Z23 w1590292189
+Z24 8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise4.v
+Z25 FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z26 !s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise4.v|
+Z27 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise4.v|
+!i113 1
+R10
+R11
+R12
+n@exercise4
+vExercise6
+R1
+!i10b 1
+!s100 XPoo0^daKRZJF3aTe5Uo`3
+IMmTJNjO2YNhH;R2[bLZ200
+R2
+R0
+w1590300887
+8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise6.v
+FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise6.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/Exercise6.v|
+!i113 1
+R10
+R11
+R12
+n@exercise6
+vMemory
+R1
+!i10b 1
+!s100 `:Q5^G?`fDgCY`a1@ZKN10
+Ia=Z[GRW]VTnbJQWaYX1c`3
+R2
+R0
+R13
+R14
+R15
+L0 45
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R11
+R12
+n@memory
+vModeSelector
+R1
+!i10b 1
+!s100 Wem2W0IS;D2KVkU>EWTbz2
+I;d3W@gz^6XkB=G]_XZgjm1
+R2
+R0
+R23
+R24
+R25
+L0 20
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+R12
+n@mode@selector
+vRisingEdgeDetector
+R1
+!i10b 1
+!s100 AJRNC`m152TJB84W?bHi[1
+I98]gDQ[CL?Y@;_VSh<diH0
+R2
+R0
+R13
+R14
+R15
+L0 38
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R11
+R12
+n@rising@edge@detector
+vRollingDisplay
+R1
+!i10b 1
+!s100 DTT`2:O@<U5EhPP5=[X6R1
+IH=O48AFY_M4oO8_E[O8F?2
+R2
+R0
+R18
+R19
+R20
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R10
+R11
+R12
+n@rolling@display
+vSSeg
+R1
+!i10b 1
+!s100 9kTDPgQ[m7gh<dWgUF`CL1
+IEX:h=MJQ6E3Lh=XJ6KHoz3
+R2
+R0
+R3
+R4
+R5
+L0 57
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@s@seg
+vSSegEn
+R1
+!i10b 1
+!s100 oR^n^<?>[HCW1fIDzBQf_2
+I0^_3?_eF;5nVD0WNl5_dE0
+R2
+R0
+R18
+R19
+R20
+L0 60
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R10
+R11
+R12
+n@s@seg@en
+vSynchroniser
+R1
+!i10b 1
+!s100 >8I8jU_P>R@>]Vlm:9Z=c2
+I0ab`TZ<5?dgUMj5e<4X1C0
+R2
+R0
+R3
+R4
+R5
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@synchroniser
+vtest_Exercise6
+R1
+!i10b 1
+!s100 N<DDF>oD`P`CAWWf`Ik=S0
+IR:47_hYZN;ESlY7L7m[a53
+R2
+R0
+w1590318556
+8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/test_Exercise6.v
+FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/test_Exercise6.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/test_Exercise6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS6/test_Exercise6.v|
+!i113 1
+R10
+R11
+R12
+ntest_@exercise6
+vTransitionDetector
+R1
+!i10b 1
+!s100 nozPS[1_MaWQQN9GAOD8f0
+I26^gogohI_JK?8Y:N>cPo0
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@transition@detector

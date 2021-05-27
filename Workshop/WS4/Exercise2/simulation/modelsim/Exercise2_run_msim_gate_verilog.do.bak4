@@ -1,0 +1,17 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {Exercise2.vo}
+
+vlog -vlog01compat -work work +incdir+D:/Lines/Quartus/Digital\ System\ Design\ ELEN30010_2020_SM1/WS4/Exercise2 {D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS4/Exercise2/test_Pipeline.v}
+
+vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  test_Pipeline
+
+add wave *
+view structure
+view signals
+run -all

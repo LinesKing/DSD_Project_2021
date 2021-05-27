@@ -1,0 +1,71 @@
+# Reading D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/tcl/vsim/pref.tcl
+# do Exercise2_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying D:/Downloads(D)/Quartus/QuartusLite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Exercise2_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:07:25 on Apr 01,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Exercise2_6_1200mv_85c_slow.vo 
+# -- Compiling module Pipeline
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Pipeline
+# End time: 17:07:25 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/cassi/Desktop/verilog\ code/WS4/Exercise2 {C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:07:25 on Apr 01,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/cassi/Desktop/verilog code/WS4/Exercise2" C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v 
+# -- Compiling module test_Syn
+# -- Compiling module test_ED
+# -- Compiling module test_Pipeline
+# 
+# Top level modules:
+# 	test_Syn
+# 	test_ED
+# 	test_Pipeline
+# End time: 17:07:25 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  test_Pipeline
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" test_Pipeline 
+# Start time: 17:07:25 on Apr 01,2021
+# Loading work.test_Pipeline
+# Loading work.Pipeline
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# Loading instances from Exercise2_6_1200mv_85c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from Exercise2_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_Pipeline File: C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 19:57:52 on Apr 01,2021, Elapsed time: 2:50:27
+# Errors: 0, Warnings: 0

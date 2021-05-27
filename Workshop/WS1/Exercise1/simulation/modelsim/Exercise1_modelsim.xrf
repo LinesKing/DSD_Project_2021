@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise1/test_inverter.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise1/Exercise1.v
+source_file = 1, Exercise1.1
+source_file = 1, Exercise11.v
+source_file = 1, Exercise1_1.v
+source_file = 1, Exercise1_2.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise1/db/Exercise1.cbx.xml
+design_name = Exercise1
+instance = comp, \x~output , x~output, Exercise1, 1
+instance = comp, \y~output , y~output, Exercise1, 1
+instance = comp, \A~input , A~input, Exercise1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Exercise1, 1

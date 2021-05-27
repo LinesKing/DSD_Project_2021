@@ -1,0 +1,26 @@
+`timescale 1ns/1ps
+
+module test_MyPipeline;
+	 reg clk;
+	 reg [3:0] x;
+	 wire [19:0] y;
+	 
+	 Pipeline Pipeline_test(.x(x), .clk(clk), .y(y), .PB(ENA),
+					.D4(D4), .D3(D3), .D2(D2), .D1(D1), .D0(D0),);
+	 initial begin
+		 clk = 0;
+		 x = 4'b0000;
+
+		 fork
+			begin
+				repeat (16) #2.5 clk = !clk;
+			end
+			
+			begin
+				#5 x = 4'b1010;
+				repeat (4) #5 x = x - 4'b0010;
+			end
+		 join
+
+	 end
+endmodule

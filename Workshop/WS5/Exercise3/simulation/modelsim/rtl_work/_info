@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/simulation/modelsim
+vEdgeDetector
+Z1 !s110 1589513618
+!i10b 1
+!s100 l9UQfgl;fBU7YRiaK;]k93
+IU<oHHe`8QClAjkQDhe@eR0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1589186002
+Z4 8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v
+Z5 FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v
+L0 13
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1589513618.000000
+Z8 !s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/Exercise3.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3}
+Z12 tCvgOpt 0
+n@edge@detector
+vEdgeDetectors
+R1
+!i10b 1
+!s100 ]YVj@`agF>N;8RhNC]Z3Z0
+I_9jI1dCg8g>9[[?H[XTKb2
+R2
+R0
+R3
+R4
+R5
+L0 19
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@edge@detectors
+vMyFSM
+R1
+!i10b 1
+!s100 @L11K;iIb3ZWVL`2<5YlY3
+I>1ZZA4PaJPjiDiFm7JcTg0
+R2
+R0
+R3
+R4
+R5
+L0 64
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@f@s@m
+vMyLock
+R1
+!i10b 1
+!s100 _zYld9ThAmakN1ReJ80a03
+IWjjBjfBWHRJ^9KSfNG<5l3
+R2
+R0
+R3
+R4
+R5
+L0 106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@lock
+vSynchroniser
+R1
+!i10b 1
+!s100 Y7T7aOV@R?onJ51I8z_4V3
+I[mR3L?QHHc:zL[PAEWORj3
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@synchroniser
+vtest_MyLock
+R1
+!i10b 1
+!s100 <K<VL0FVJa8=@=iV34^Z[0
+IWiG>OQ0]78bcY_=0cWX3M0
+R2
+R0
+w1588678238
+8D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v
+FD:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3|D:/Lines/Quartus/Digital System Design ELEN30010_2020_SM1/WS5/Exercise3/test_Exercise3.v|
+!i113 1
+R10
+R11
+R12
+ntest_@my@lock

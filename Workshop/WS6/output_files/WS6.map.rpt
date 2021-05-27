@@ -1,0 +1,478 @@
+Analysis & Synthesis report for WS6
+Thu Apr 22 16:07:47 2021
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Synchroniser:sync
+ 11. Parameter Settings for User Entity Instance: Memory:memory
+ 12. Parameter Settings for Inferred Entity Instance: EditMemory:em|lpm_divide:Mod1
+ 13. Parameter Settings for Inferred Entity Instance: EditMemory:em|lpm_divide:Mod0
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+ 17. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Thu Apr 22 16:07:47 2021       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; WS6                                         ;
+; Top-level Entity Name           ; Exercise3                                   ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 91                                          ;
+; Total pins                      ; 54                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; Exercise3          ; WS6                ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 6           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-6         ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------+---------+
+; Exercise3.v                      ; yes             ; User Verilog HDL File        ; C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v                                     ;         ;
+; Exercise1.v                      ; yes             ; User Verilog HDL File        ; C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v                                     ;         ;
+; Exercise2.v                      ; yes             ; User Verilog HDL File        ; C:/Users/cassi/Desktop/verilog code/WS6/Exercise2.v                                     ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; d:/downloads(d)/quartus/quartuslite/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; d:/downloads(d)/quartus/quartuslite/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; d:/downloads(d)/quartus/quartuslite/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; d:/downloads(d)/quartus/quartuslite/quartus/libraries/megafunctions/aglobal181.inc      ;         ;
+; db/lpm_divide_42m.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/cassi/Desktop/verilog code/WS6/db/lpm_divide_42m.tdf                           ;         ;
+; db/sign_div_unsign_7kh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/cassi/Desktop/verilog code/WS6/db/sign_div_unsign_7kh.tdf                      ;         ;
+; db/alt_u_div_kse.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/cassi/Desktop/verilog code/WS6/db/alt_u_div_kse.tdf                            ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 75             ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 113            ;
+;     -- 7 input functions                    ; 1              ;
+;     -- 6 input functions                    ; 31             ;
+;     -- 5 input functions                    ; 24             ;
+;     -- 4 input functions                    ; 34             ;
+;     -- <=3 input functions                  ; 23             ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 91             ;
+;                                             ;                ;
+; I/O pins                                    ; 54             ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 91             ;
+; Total fan-out                               ; 862            ;
+; Average fan-out                             ; 2.76           ;
++---------------------------------------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                      ; Entity Name         ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; |Exercise3                                ; 113 (0)             ; 91 (0)                    ; 0                 ; 0          ; 54   ; 0            ; |Exercise3                                                                                                               ; Exercise3           ; work         ;
+;    |EditMemory:em|                        ; 86 (70)             ; 45 (45)                   ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em                                                                                                 ; EditMemory          ; work         ;
+;       |lpm_divide:Mod0|                   ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_42m:auto_generated|  ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod0|lpm_divide_42m:auto_generated                                                   ; lpm_divide_42m      ; work         ;
+;             |sign_div_unsign_7kh:divider| ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod0|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider                       ; sign_div_unsign_7kh ; work         ;
+;                |alt_u_div_kse:divider|    ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod0|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider|alt_u_div_kse:divider ; alt_u_div_kse       ; work         ;
+;       |lpm_divide:Mod1|                   ; 10 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod1                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_42m:auto_generated|  ; 10 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod1|lpm_divide_42m:auto_generated                                                   ; lpm_divide_42m      ; work         ;
+;             |sign_div_unsign_7kh:divider| ; 10 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod1|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider                       ; sign_div_unsign_7kh ; work         ;
+;                |alt_u_div_kse:divider|    ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|EditMemory:em|lpm_divide:Mod1|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider|alt_u_div_kse:divider ; alt_u_div_kse       ; work         ;
+;    |Memory:memory|                        ; 1 (1)               ; 40 (40)                   ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|Memory:memory                                                                                                 ; Memory              ; work         ;
+;    |RisingEdgeDetector:red0|              ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|RisingEdgeDetector:red0                                                                                       ; RisingEdgeDetector  ; work         ;
+;    |RisingEdgeDetector:red1|              ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|RisingEdgeDetector:red1                                                                                       ; RisingEdgeDetector  ; work         ;
+;    |SSegEn:s0|                            ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|SSegEn:s0                                                                                                     ; SSegEn              ; work         ;
+;    |SSegEn:s4|                            ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|SSegEn:s4                                                                                                     ; SSegEn              ; work         ;
+;    |SSegEn:s5|                            ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|SSegEn:s5                                                                                                     ; SSegEn              ; work         ;
+;    |Synchroniser:sync|                    ; 2 (2)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |Exercise3|Synchroniser:sync                                                                                             ; Synchroniser        ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 91    ;
+; Number of registers using Synchronous Clear  ; 44    ;
+; Number of registers using Synchronous Load   ; 4     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 44    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Exercise3|EditMemory:em|addr[0] ;
+; 3:1                ; 40 bits   ; 80 LEs        ; 0 LEs                ; 80 LEs                 ; Yes        ; |Exercise3|Memory:memory|mem[31] ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |Exercise3|EditMemory:em|Mux3    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Synchroniser:sync ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; n              ; 2     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Memory:memory ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; bits           ; 40    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: EditMemory:em|lpm_divide:Mod1 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 4              ; Untyped                              ;
+; LPM_WIDTHD             ; 4              ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_42m ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: EditMemory:em|lpm_divide:Mod0 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 4              ; Untyped                              ;
+; LPM_WIDTHD             ; 4              ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_42m ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 91                          ;
+;     ENA SCLR          ; 40                          ;
+;     ENA SCLR SLD      ; 4                           ;
+;     plain             ; 47                          ;
+; arriav_lcell_comb     ; 117                         ;
+;     arith             ; 12                          ;
+;         0 data inputs ; 4                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 2                           ;
+;         4 data inputs ; 4                           ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 104                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 9                           ;
+;         4 data inputs ; 30                          ;
+;         5 data inputs ; 24                          ;
+;         6 data inputs ; 31                          ;
+; boundary_port         ; 54                          ;
+;                       ;                             ;
+; Max LUT depth         ; 5.20                        ;
+; Average LUT depth     ; 3.37                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Apr 22 16:07:37 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off WS6 -c WS6
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file exercise6.v
+    Info (12023): Found entity 1: Exercise6 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise6.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file exercise5.v
+    Info (12023): Found entity 1: Exercise5 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise5.v Line: 1
+Info (12021): Found 2 design units, including 2 entities, in source file exercise4.v
+    Info (12023): Found entity 1: Exercise4 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise4.v Line: 1
+    Info (12023): Found entity 2: ModeSelector File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise4.v Line: 20
+Info (12021): Found 4 design units, including 4 entities, in source file exercise3.v
+    Info (12023): Found entity 1: Exercise3 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 1
+    Info (12023): Found entity 2: RisingEdgeDetector File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 38
+    Info (12023): Found entity 3: Memory File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 45
+    Info (12023): Found entity 4: EditMemory File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 61
+Info (12021): Found 6 design units, including 6 entities, in source file exercise1.v
+    Info (12023): Found entity 1: Exercise1 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 1
+    Info (12023): Found entity 2: Synchroniser File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 27
+    Info (12023): Found entity 3: TransitionDetector File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 40
+    Info (12023): Found entity 4: Counter File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 47
+    Info (12023): Found entity 5: SSeg File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 57
+    Info (12023): Found entity 6: Debouncer File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise1.v Line: 79
+Info (12021): Found 3 design units, including 3 entities, in source file exercise2.v
+    Info (12023): Found entity 1: Exercise2 File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise2.v Line: 1
+    Info (12023): Found entity 2: RollingDisplay File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise2.v Line: 22
+    Info (12023): Found entity 3: SSegEn File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise2.v Line: 60
+Info (12127): Elaborating entity "Exercise3" for the top level hierarchy
+Info (12128): Elaborating entity "Synchroniser" for hierarchy "Synchroniser:sync" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 11
+Info (12128): Elaborating entity "RisingEdgeDetector" for hierarchy "RisingEdgeDetector:red1" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 14
+Info (12128): Elaborating entity "Memory" for hierarchy "Memory:memory" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 23
+Info (12128): Elaborating entity "EditMemory" for hierarchy "EditMemory:em" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 25
+Info (12128): Elaborating entity "SSegEn" for hierarchy "SSegEn:s0" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 30
+Info (278001): Inferred 2 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "EditMemory:em|Mod1" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 90
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "EditMemory:em|Mod0" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 82
+Info (12130): Elaborated megafunction instantiation "EditMemory:em|lpm_divide:Mod1" File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 90
+Info (12133): Instantiated megafunction "EditMemory:em|lpm_divide:Mod1" with the following parameter: File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 90
+    Info (12134): Parameter "LPM_WIDTHN" = "4"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_42m.tdf
+    Info (12023): Found entity 1: lpm_divide_42m File: C:/Users/cassi/Desktop/verilog code/WS6/db/lpm_divide_42m.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_7kh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_7kh File: C:/Users/cassi/Desktop/verilog code/WS6/db/sign_div_unsign_7kh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kse.tdf
+    Info (12023): Found entity 1: alt_u_div_kse File: C:/Users/cassi/Desktop/verilog code/WS6/db/alt_u_div_kse.tdf Line: 22
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[0]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[1]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[2]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[3]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[4]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[5]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[0]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[1]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[2]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[3]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[4]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[5]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC File: C:/Users/cassi/Desktop/verilog code/WS6/Exercise3.v Line: 7
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/cassi/Desktop/verilog code/WS6/output_files/WS6.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 215 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 4 input pins
+    Info (21059): Implemented 50 output pins
+    Info (21061): Implemented 161 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Thu Apr 22 16:07:47 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:18
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/cassi/Desktop/verilog code/WS6/output_files/WS6.map.smsg.
+
+

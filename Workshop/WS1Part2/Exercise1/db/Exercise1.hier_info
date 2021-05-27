@@ -1,0 +1,12 @@
+|Exercise1
+A => x.IN0
+A => y.IN0
+A => z.IN0
+B => x.IN1
+B => y.IN1
+B => z.IN1
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+y << y.DB_MAX_OUTPUT_PORT_TYPE
+z << z.DB_MAX_OUTPUT_PORT_TYPE
+
+

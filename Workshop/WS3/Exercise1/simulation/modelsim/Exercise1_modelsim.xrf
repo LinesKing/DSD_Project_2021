@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/cassi/Desktop/verilog code/WS3/Exercise1/MyMUX.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/WS3/Exercise1/db/Exercise1.cbx.xml
+design_name = MyMUX
+instance = comp, \m~output , m~output, MyMUX, 1
+instance = comp, \s~input , s~input, MyMUX, 1
+instance = comp, \x~input , x~input, MyMUX, 1
+instance = comp, \y~input , y~input, MyMUX, 1
+instance = comp, \m~0 , m~0, MyMUX, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, MyMUX, 1

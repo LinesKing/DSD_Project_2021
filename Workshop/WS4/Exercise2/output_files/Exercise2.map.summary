@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 01 16:59:48 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Exercise2
+Top-level Entity Name : Pipeline
+Family : Cyclone IV E
+Total logic elements : 63
+    Total combinational functions : 30
+    Dedicated logic registers : 34
+Total registers : 34
+Total pins : 61
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 3
+Total PLLs : 0

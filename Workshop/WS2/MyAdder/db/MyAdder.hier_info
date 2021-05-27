@@ -1,0 +1,165 @@
+|MyDE1Board
+SW[0] => in_b[0].IN2
+SW[1] => in_b[1].IN2
+SW[2] => in_b[2].IN2
+SW[3] => in_b[3].IN2
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => in_a[0].IN2
+SW[7] => in_a[1].IN2
+SW[8] => in_a[2].IN2
+SW[9] => in_a[3].IN2
+LEDR[0] << in_b[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] << in_b[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] << in_b[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << in_b[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << in_a[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] << in_a[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] << in_a[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] << in_a[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[1] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[2] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[3] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[4] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[5] << MySevenSegmentDisplay:Result.DISPLAY
+HEX0[6] << MySevenSegmentDisplay:Result.DISPLAY
+HEX1[0] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[1] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[2] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[3] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[4] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[5] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX1[6] << MySevenSegmentDisplay:Carry_out.DISPLAY
+HEX2[0] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[1] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[2] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[3] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[4] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[5] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX2[6] << MySevenSegmentDisplay:num_2.DISPLAY
+HEX4[0] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[1] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[2] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[3] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[4] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[5] << MySevenSegmentDisplay:num_1.DISPLAY
+HEX4[6] << MySevenSegmentDisplay:num_1.DISPLAY
+
+
+|MyDE1Board|MyRippleCarryAdder:the_adder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum[0] <= MyHalfAdder:LSB.sum
+sum[1] <= MyFullAdder:TSB.sum
+sum[2] <= MyFullAdder:SSB.sum
+sum[3] <= MyFullAdder:MSB.sum
+carry <= MyFullAdder:MSB.carry
+
+
+|MyDE1Board|MyRippleCarryAdder:the_adder|MyHalfAdder:LSB
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MyRippleCarryAdder:the_adder|MyFullAdder:TSB
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+c_in => sum.IN1
+c_in => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MyRippleCarryAdder:the_adder|MyFullAdder:SSB
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+c_in => sum.IN1
+c_in => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MyRippleCarryAdder:the_adder|MyFullAdder:MSB
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+c_in => sum.IN1
+c_in => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MySevenSegmentDisplay:num_1
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MySevenSegmentDisplay:num_2
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MySevenSegmentDisplay:Result
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyDE1Board|MySevenSegmentDisplay:Carry_out
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

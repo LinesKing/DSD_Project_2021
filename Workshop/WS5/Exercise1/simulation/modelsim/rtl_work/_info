@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/WS5/Exercise1/simulation/modelsim
+vMyMealyFSM
+Z1 !s110 1618213395
+!i10b 1
+!s100 [05C6Pbf95=00fAPRP?NI0
+IY8^nLBMUA<c8GTf7ekN[30
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1588576010
+Z4 8C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/Exercise1.v
+Z5 FC:/Users/cassi/Desktop/verilog code/WS5/Exercise1/Exercise1.v
+L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1618213395.000000
+Z8 !s107 C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/Exercise1.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS5/Exercise1|C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/Exercise1.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/WS5/Exercise1}
+Z12 tCvgOpt 0
+n@my@mealy@f@s@m
+vMyMooreFSM
+R1
+!i10b 1
+!s100 Y9cZZo0YGkl0gPFldh04S3
+I9hgBD=M@@YmMOAee49N:N1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@my@moore@f@s@m
+vtest_MyFSM
+!s110 1618213396
+!i10b 1
+!s100 PUQK>ZQ?k;`FDFlDMa=El3
+IW>2HD52ZEf722:PfP2YlO1
+R2
+R0
+w1588564900
+8C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/test_Exercise1.v
+FC:/Users/cassi/Desktop/verilog code/WS5/Exercise1/test_Exercise1.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1618213396.000000
+!s107 C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/test_Exercise1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS5/Exercise1|C:/Users/cassi/Desktop/verilog code/WS5/Exercise1/test_Exercise1.v|
+!i113 1
+R10
+R11
+R12
+ntest_@my@f@s@m

@@ -1,0 +1,124 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/WS4/Exercise2/simulation/modelsim
+vhard_block
+Z1 !s110 1617257245
+!i10b 1
+!s100 [;XYY6]JJDNj9OLHLlNWk2
+IkUcC4I]GQW2Xh1f3mBUbe0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1617256800
+Z4 8Exercise2_6_1200mv_85c_slow.vo
+Z5 FExercise2_6_1200mv_85c_slow.vo
+L0 2265
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1617257245.000000
+Z8 !s107 Exercise2_6_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Exercise2_6_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vPipeline
+R1
+!i10b 1
+!s100 2CckcL^@?D[mNoOTaRbem0
+IK<3aHie[_l6ooaR@S]NX^0
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@pipeline
+vtest_ED
+R1
+!i10b 1
+!s100 <mf0HcM>UzO<B<HA2:OKN2
+I7bb0O]6ah9@Rzi81=^@<?1
+R2
+R0
+Z13 w1617254326
+Z14 8C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v
+Z15 FC:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+Z16 !s107 C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/WS4/Exercise2|C:/Users/cassi/Desktop/verilog code/WS4/Exercise2/test_Pipeline.v|
+!i113 1
+R10
+Z18 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/WS4/Exercise2}
+R12
+ntest_@e@d
+vtest_Pipeline
+R1
+!i10b 1
+!s100 0Y2CMT^L>5I:8kd<Q9UzH3
+IiV5<b;Uh1CV]=a?fMn4gU1
+R2
+R0
+R13
+R14
+R15
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R18
+R12
+ntest_@pipeline
+vtest_Syn
+R1
+!i10b 1
+!s100 _Kjidd2cmmITIVZDO<6?23
+IA:o@F5WT4iK9>emYT98VS2
+R2
+R0
+R13
+R14
+R15
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R10
+R18
+R12
+ntest_@syn

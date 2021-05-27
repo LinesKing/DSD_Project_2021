@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+H:/Quartus/Diital\ System\ Design\ ELEN30010_2020_SM1/WS2/MyAdder {H:/Quartus/Diital System Design ELEN30010_2020_SM1/WS2/MyAdder/MyAdder.v}
+

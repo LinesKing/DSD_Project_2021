@@ -1,0 +1,7 @@
+module MySyncMUX ( input x, y, s, clk , output m_sync );
+// Variable definitions
+MyMUX MUX (.x(x), .y(y), .s(s), .m(m ));
+always @( posedge clk ) begin
+// Design your flip - flop (s) here
+end
+endmodule

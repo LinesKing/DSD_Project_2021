@@ -1,0 +1,7 @@
+|Exercise1
+A => x.DATAIN
+A => y.DATAIN
+x << A.DB_MAX_OUTPUT_PORT_TYPE
+y << A.DB_MAX_OUTPUT_PORT_TYPE
+
+

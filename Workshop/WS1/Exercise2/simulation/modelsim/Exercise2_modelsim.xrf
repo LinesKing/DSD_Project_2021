@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyFruitBasket.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyOrange.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyLemon.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/test_MyApple.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/Exercise2.v
+source_file = 1, C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1/Exercise2/db/Exercise2.cbx.xml
+design_name = MyFruitBasket
+instance = comp, \z~output , z~output, MyFruitBasket, 1
+instance = comp, \S0~input , S0~input, MyFruitBasket, 1
+instance = comp, \A~input , A~input, MyFruitBasket, 1
+instance = comp, \B~input , B~input, MyFruitBasket, 1
+instance = comp, \a_lemon_chip|z~0 , a_lemon_chip|z~0, MyFruitBasket, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, MyFruitBasket, 1

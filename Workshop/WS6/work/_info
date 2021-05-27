@@ -1,0 +1,780 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Downloads(D)/virtual-de1soc-master/src
+vCounter
+Z1 !s110 1590216420
+!i10b 1
+!s100 gSYM2Ijh0Po]K9GOKC^E60
+IF?KJ796;<BGBiaf3@681b2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1590216380
+Z4 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise1.v
+Z5 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise1.v
+L0 47
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1590216420.000000
+Z8 !s107 D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise2.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise1.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise6.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise5.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise4.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise3.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise2.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise1.v|
+Z9 !s90 -nocreatelib|-work|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6\work|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise1.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise2.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise3.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise4.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise5.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise6.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise1.v|D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise2.v|
+!i113 1
+Z10 o-nocreatelib -work {D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6\work}
+Z11 tCvgOpt 0
+n@counter
+vDebouncer
+R1
+!i10b 1
+!s100 T4zM5OZSZj0R[ZSaNZMSi0
+I`2gIZWOCF6YMh=JkY;@O>3
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@debouncer
+vEditMemory3
+R1
+!i10b 1
+!s100 jVjKcLPUSAiGTm_LFV?`?0
+IK?0HzV0bn5@>m<EV0aVe71
+R2
+R0
+Z12 w1590215782
+Z13 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise3.v
+Z14 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise3.v
+L0 66
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@edit@memory3
+vEditMemory5
+R1
+!i10b 1
+!s100 jUa;>SXf_EfL27BV?SFDX3
+I1W=g]hHnUVIR=IlDA;]Gl1
+R2
+R0
+Z15 w1590133808
+Z16 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise5.v
+Z17 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise5.v
+L0 107
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@edit@memory5
+vEditMemory6
+R1
+!i10b 1
+!s100 b1]ljD7h?h6UB4A;d4We@1
+I6c3ek1Jb[RN@AT3Yb:Z:]3
+R2
+R0
+Z18 w1590131657
+Z19 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise6.v
+Z20 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise6.v
+L0 117
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@edit@memory6
+vExercise1
+R1
+!i10b 1
+!s100 cl:K`c9><F:BaSBKZCQVL2
+IncIH[Umc1mhk5`UK=kklj0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise1
+vExercise2
+R1
+!i10b 1
+!s100 m]Bel2R:XCiN2U3jQc^Bc1
+IPGa8>]H@=iQ7WfV[ODVm<0
+R2
+R0
+Z21 w1590133388
+Z22 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise2.v
+Z23 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise2
+vExercise3
+R1
+!i10b 1
+!s100 R_EehghP6YOiN?82A78i31
+IY^WIzA62[ag8e:e0e_<FX0
+R2
+R0
+R12
+R13
+R14
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise3
+vExercise4
+R1
+!i10b 1
+!s100 dM_:XJSHPSNaViZKB=`;80
+IzcII0h?U`K_NdB1<hFN?I3
+R2
+R0
+Z24 w1590131585
+Z25 8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise4.v
+Z26 FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/Exercise4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise4
+vExercise5
+R1
+!i10b 1
+!s100 8K3D45fkGD]::N5UkzT;k1
+Ii2l@`d0zf<nbaMz52PNLX3
+R2
+R0
+R15
+R16
+R17
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise5
+vExercise6
+R1
+!i10b 1
+!s100 AIZRB3<5K58R?[AIz1@CL1
+IMNGel0bHg90lEjKCPkI5S0
+R2
+R0
+R18
+R19
+R20
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@exercise6
+vMemory
+R1
+!i10b 1
+!s100 Td7DRcCB_RkcaV=<LZd^_0
+I<lo0;1AeKT?TD2fc`K5Z63
+R2
+R0
+R18
+R19
+R20
+Z27 L0 101
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@memory
+vMemory3
+R1
+!i10b 1
+!s100 gT=dR=K8I4YEI0I[=amb61
+IQ0Dmol6^1A1XnFfEJaSkF1
+R2
+R0
+R12
+R13
+R14
+L0 50
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@memory3
+vMemory5
+R1
+!i10b 1
+!s100 g]Nd8k0Fbj8_ZJdIV`NdF2
+Il7Lo[gESg3AP[Fel_6<mg1
+R2
+R0
+R15
+R16
+R17
+L0 91
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@memory5
+vModeSelector4
+R1
+!i10b 1
+!s100 0icId9cJV8ML2h>ESHMm@3
+IVNA8iPU[FPili8nFlz@n?1
+R2
+R0
+R24
+R25
+R26
+L0 20
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@mode@selector4
+vModeSelector5
+R1
+!i10b 1
+!s100 cE;UCGVKgeV[m8[9f]W<92
+ICTm?zBnV6oOU4^z;2>z@G0
+R2
+R0
+R15
+R16
+R17
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@mode@selector5
+vModeSelector6
+R1
+!i10b 1
+!s100 jaOPF[Y8MDPMInkDROT8d2
+IX6@iS9nJXENf<oTcdQ^Tk3
+R2
+R0
+R18
+R19
+R20
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@mode@selector6
+vRisingEdgeDetector3
+R1
+!i10b 1
+!s100 z[FFA]9aSNWEJ>Xm>FF7<0
+Ilb[5jBP89<[leFbdm1@O50
+R2
+R0
+R12
+R13
+R14
+L0 43
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@rising@edge@detector3
+vRisingEdgeDetector5
+R1
+!i10b 1
+!s100 Cz87H7m1]RR<1=Ucmfkkm3
+I8e2TaiDQ7I9JYTFIWK5LK2
+R2
+R0
+R15
+R16
+R17
+L0 84
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@rising@edge@detector5
+vRisingEdgeDetector6
+R1
+!i10b 1
+!s100 bYA<UcPmoRa8m=_nYj4o]1
+IzMWONI60gLbNc^zPN>S122
+R2
+R0
+R18
+R19
+R20
+L0 94
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@rising@edge@detector6
+vRollingDisplay2
+R1
+!i10b 1
+!s100 cBXhT072]N<I9QPZ0kQ=:0
+IYem74JHXll6SJPfSKRIVB2
+R2
+R0
+R21
+R22
+R23
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@rolling@display2
+vRollingDisplay6
+R1
+!i10b 1
+!s100 koXB]=6609mEia>cCC_UJ3
+I9=oR@OLM]BUEMZHjF7d0d2
+R2
+R0
+R18
+R19
+R20
+L0 152
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@rolling@display6
+vSSeg
+R1
+!i10b 1
+!s100 >lhK?B4EDTVORgV4feTFd1
+IgULZl@Sn2@bB6=1jN]j[L3
+R2
+R0
+R3
+R4
+R5
+L0 56
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@seg
+vSSegEn2
+R1
+!i10b 1
+!s100 XzV76GfPB0occkl<^_8^52
+I@JF>S`OGBoO@EVY1bKVgG0
+R2
+R0
+R21
+R22
+R23
+L0 60
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@seg@en2
+vSSegEn3
+R1
+!i10b 1
+!s100 6?a]6a47idnP>SaS5Gz_[1
+I8EZ^Ue=iBmnJMcd8alIZ<3
+R2
+R0
+R12
+R13
+R14
+R27
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@seg@en3
+vSSegEn5
+R1
+!i10b 1
+!s100 W`i7daSQ91f41zOIBKgNB2
+ILgJmkI7ARAhT9FcMB>QQX3
+R2
+R0
+R15
+R16
+R17
+L0 143
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@seg@en5
+vSSegEn6
+R1
+!i10b 1
+!s100 eG?XdFAjIP0KB05J<e_Xj3
+I?^[zHEjR00k`o^R;1A2R]2
+R2
+R0
+R18
+R19
+R20
+L0 190
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@seg@en6
+vSynchroniser
+R1
+!i10b 1
+!s100 >8I8jU_P>R@>]Vlm:9Z=c2
+I<2D@L0nX:Ffan?E:>M6i<2
+R2
+R0
+R3
+R4
+R5
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@synchroniser
+vSynchroniser3
+R1
+!i10b 1
+!s100 58AnA0m`l2EOlB<jzH>DG3
+I=Z@@l@0E9<MkI:O[Zeg?Z2
+R2
+R0
+R12
+R13
+R14
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@synchroniser3
+vSynchroniser4
+R1
+!i10b 1
+!s100 zHFdA>0?m[`c?J>nF0F[X1
+IC@<nTciQNUhFXg@egTRXg0
+R2
+R0
+R24
+R25
+R26
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@synchroniser4
+vSynchroniser5
+R1
+!i10b 1
+!s100 oGHH81V?ZXEDf6Cf@DCGD3
+IHAIGlB^O5hBoiXSVNG:7D2
+R2
+R0
+R15
+R16
+R17
+L0 42
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@synchroniser5
+vSynchroniser6
+R1
+!i10b 1
+!s100 zc_a:[=26;Q1>]0lYn=JV2
+Il?[K7i=8PX1kAQcg48HJF1
+R2
+R0
+R18
+R19
+R20
+L0 52
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@synchroniser6
+vtest_Exercise1
+R1
+!i10b 1
+!s100 LH0`=VA5nY]9TFU9C9K`d2
+I7azf<aMS46YRz8U?i[>`72
+R2
+R0
+w1589802694
+8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise1.v
+FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise1.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+ntest_@exercise1
+vtest_Exercise2
+R1
+!i10b 1
+!s100 IgV=J[[GeJSiX?DlNQa<J1
+I_1l9f]0X<hfDDDdI[LJH41
+R2
+R0
+w1590132989
+8D:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise2.v
+FD:\Lines\Quartus\Digital System Design ELEN30010_2020_SM1\WS6/test_Exercise2.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+ntest_@exercise2
+vTransitionDetector
+R1
+!i10b 1
+!s100 nozPS[1_MaWQQN9GAOD8f0
+IBbfV^YzWdRYY4Zj5UFk^E2
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@transition@detector

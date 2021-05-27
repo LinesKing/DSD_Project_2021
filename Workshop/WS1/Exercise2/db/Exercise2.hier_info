@@ -1,0 +1,25 @@
+|MyFruitBasket
+A => A.IN1
+B => B.IN1
+S0 => S0.IN2
+z << MyLemon:a_lemon_chip.z
+
+
+|MyFruitBasket|MyApple:an_apple_chip
+A => x.IN0
+S0 => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyFruitBasket|MyOrange:an_orange_chip
+B => y.IN0
+S0 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MyFruitBasket|MyLemon:a_lemon_chip
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/simulation/modelsim
+vExercise2
+Z1 !s110 1621672295
+!i10b 1
+!s100 E?:GV:Ye:DA?bzf01__>32
+IS8TL@87H6ccgkO7]S85m;1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615442494
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/Exercise2.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/Exercise2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1621672294.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/Exercise2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/Exercise2.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2}
+Z6 tCvgOpt 0
+n@exercise2
+vtest_GAME
+R1
+!i10b 1
+!s100 `Y>]4FaAMPOen6o8W`@kW1
+I?C0bSgL_TfAKkXJO50a_;1
+R2
+R0
+w1584157960
+8C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/test_GAME.v
+FC:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/test_GAME.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1621672295.000000
+!s107 C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/test_GAME.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2|C:/Users/cassi/Desktop/verilog code/Digital-System-Design-ELEN30010_2021_SM1/WS1Part2/Exercise2/test_GAME.v|
+!i113 1
+R4
+R5
+R6
+ntest_@g@a@m@e

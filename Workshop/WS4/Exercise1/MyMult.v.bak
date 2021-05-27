@@ -1,0 +1,13 @@
+module MyMult1(input [3:0]x, output [19:0]y);
+	 wire [4:0] x1 = 2 * x;
+	 wire [9:0] x2 = x1 * x1; 
+	 wire [14:0] x3 = x2 * x1;
+	 assign y = x3 * x1; 
+endmodule
+
+module MyMult2(input [3:0]x, output [19:0]y);
+	 wire [4:0] x1 = 2 * x;
+	 wire [9:0] x2 = x1 * x1; 
+	 assign y = x2 * x2;
+endmodule
+

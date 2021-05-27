@@ -1,0 +1,32 @@
+|MySyncCounter
+PB0 => count[0].CLK
+PB0 => count[1].CLK
+PB0 => count[2].CLK
+PB0 => count[3].CLK
+HEX0[0] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[1] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[2] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[3] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[4] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[5] << MySevenSegmentDisplay:BIT0.DISPLAY
+HEX0[6] << MySevenSegmentDisplay:BIT0.DISPLAY
+LEDR[0] << count[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] << count[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] << count[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << count[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MySyncCounter|MySevenSegmentDisplay:BIT0
+NUM_BINARY[0] => Decoder0.IN3
+NUM_BINARY[1] => Decoder0.IN2
+NUM_BINARY[2] => Decoder0.IN1
+NUM_BINARY[3] => Decoder0.IN0
+DISPLAY[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+DISPLAY[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
